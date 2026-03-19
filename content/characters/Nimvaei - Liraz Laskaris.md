@@ -32,7 +32,6 @@ stub: false
 > | **Scales** | Black |
 > | **Eyes** | Golden |
 > | **Job** | Dark Knight → Runic Dark Knight (endpoint) |
-> | **Created By** | John's girlfriend |
 >
 > **Personal Status**
 >
