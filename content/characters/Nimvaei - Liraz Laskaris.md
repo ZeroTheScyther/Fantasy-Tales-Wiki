@@ -1,6 +1,6 @@
 ---
-title: "Nimvaei / Liraz Laskaris"
-subtitle: "One person. Two faces. One arc."
+title: Nimvaei / Liraz Laskaris
+subtitle: One person. Two faces. One arc.
 category: character
 tags:
   - character
@@ -8,12 +8,12 @@ tags:
   - au ra
   - dark knight
 aliases:
-  - "Nimvaei / Liraz Laskaris"
-  - "Nimvaei"
-  - "Liraz"
-  - "Liraz Laskaris"
-  - "Tumet Clan"
-stub: false
+  - Nimvaei / Liraz Laskaris
+  - Nimvaei
+  - Liraz
+  - Liraz Laskaris
+  - Tumet Clan
+stub: true
 ---
 
 > [!infobox]
@@ -24,14 +24,14 @@ stub: false
 >
 > | | |
 > |---|---|
-> | **Full Name** | Liraz Laskaris (formerly Nimvaei Tumet) |
-> | **Race** | Au Ra (Xaela) — Tumet Clan, Azim Steppe |
+> | **Full Name** | Nimvaei Tumet (formerly Liraz Laskaris) |
+> | **Race** | Au Ra (Xaela) |
 > | **Age** | 26 |
-> | **Height** | 174 cm (taller than typical Au Ra — experimentation) |
+> | **Height** | 174 cm |
 > | **Build** | Slender but strong |
 > | **Scales** | Black |
 > | **Eyes** | Golden |
-> | **Job** | Dark Knight → Runic Dark Knight (endpoint) |
+> | **Job** | Dark Knight  |
 >
 > **Personal Status**
 >
@@ -51,8 +51,8 @@ stub: false
 >
 > | | |
 > |---|---|
-> | **Current** | Adventurer / Dark Knight |
-> | **Previous** | Auria Van Varus's operative (groomed) |
+> | **Current** | Adventurer |
+> | **Previous** | Imperial Soldier |
 >
 > **Base of Operations**
 >
@@ -68,7 +68,7 @@ Their full arc is reintegration. Nimvaei willingly sacrifices herself — not dy
 
 ## Appearance
 
-An Au Ra Xaela woman, slender but strong, with black scales, golden eyes, pale white skin, and dark hair worn long and loose. At 174 cm she is noticeably taller than typical Au Ra — a consequence of [[Auria Van Varus|Auria's]] experimentation. Xaela tribal markings run down the side of her face. Her look shifts dramatically by context: as Nimvaei in combat she wears full heavy black Dark Knight plate with silver engravings and fur-trimmed shoulders — deeply gothic and imposing. Off-duty she wears warmer, layered clothing, patterned scarves, embroidered jackets in earthy tones. As Liraz operating under Auria, she wore a dark military long coat with a face covering and red sash — everything concealed, assassin aesthetic. The contrast with [[Zekito Silverblood|Zekito]] is not colour (both wear dark) but register: she looks built for something. He looks like someone who enjoys the fight.
+An Au Ra Xaela woman, slender but strong, with black scales, golden eyes, pale white skin, and dark hair worn long and loose. At 174 cm she is noticeably taller than typical Au Ra — a consequence of [[Auria Van Varus|Auria's]] experimentation. Her look shifts dramatically by context: as Nimvaei in combat she wears full heavy black Dark Knight plate with silver engravings and fur-trimmed shoulders — deeply gothic and imposing. Off-duty she wears warmer, layered clothing, patterned scarves, embroidered jackets in earthy tones. As Liraz operating under Auria, she wore a dark military long coat with a face covering and red sash — everything concealed, assassin aesthetic. The contrast with [[Zekito Silverblood|Zekito]] is not colour (both wear dark) but register: she looks built for something. He looks like someone who enjoys the fight.
 
 **Trance Form:** Draconic transformation — partial conversion to [[Woeborn|Nidhogg-like]] scales, fire aether going primal, demonic horns, raw energy. See [[The Trance]].
 
