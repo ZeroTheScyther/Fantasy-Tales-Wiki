@@ -18,7 +18,7 @@ stub: false
 >
 > | | |
 > |---|---|
-> | **Race** | [TODO] |
+> | **Race** | Hyur |
 > | **Age** | 23 |
 > | **Subject File** | 46Ω |
 > | **Doses Received** | 6 (Compound Omega) |
