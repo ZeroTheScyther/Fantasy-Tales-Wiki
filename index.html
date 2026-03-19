@@ -1266,31 +1266,50 @@ const ARTICLES = {
     ],
     infobox: {
       title: 'Liraz Laskaris',
-      fields: [
-        ['Full Name', 'Liraz Laskaris (formerly Nimvaei Tumet)'],
-        ['Race', "Au Ra (Xaela) — Tumet Clan, Azim Steppe"],
-        ['Origin', 'Hydaelyn — born in the Azim Steppe'],
-        ['Age', '26'],
-        ['Height', '174 cm (taller than typical Au Ra due to experimentation)'],
-        ['Build', 'Slender but strong'],
-        ['Scales', 'Black'],
-        ['Eyes', 'Golden'],
-        ['Hair', 'Dark, disheveled'],
-        ['First Met Zekito', '[[Lunar Rose Academy]], Hydaelyn'],
-        ['Relationship', 'Partner, best friend, eventual wife of [[Zekito Silverblood]]'],
-        ['Created By', "John's girlfriend"],
+      imageTabs: [
+        { label: 'Nimvaei', src: null, caption: 'Lunar Rose and beyond' },
+        { label: 'Liraz', src: null, caption: 'Auria-era field gear' },
+        { label: 'Trance', src: null, caption: 'Woeborn fusion state' },
+      ],
+      groups: [
+        { heading: null, fields: [
+          ['Full Name', 'Liraz Laskaris (formerly Nimvaei Tumet)'],
+          ['Race', "Au Ra (Xaela) — Tumet Clan, Azim Steppe"],
+          ['Age', '26'],
+          ['Height', '174 cm (taller than typical Au Ra — experimentation)'],
+          ['Build', 'Slender but strong'],
+          ['Scales', 'Black'],
+          ['Eyes', 'Golden'],
+          ['Job', 'Dark Knight → Runic Dark Knight (endpoint)'],
+          ['Created By', "John's girlfriend"],
+        ]},
+        { heading: 'Personal Status', fields: [
+          ['Status', 'Alive'],
+          ['Relatives', '[TODO]'],
+        ]},
+        { heading: 'Affiliation', fields: [
+          ['Current', '[TODO]'],
+          ['Previous', "[[Fury's Gaze]] (Auria's subject)"],
+        ]},
+        { heading: 'Occupation', fields: [
+          ['Current', 'Adventurer / Dark Knight'],
+          ['Previous', "Auria Van Varus's operative (groomed)"],
+        ]},
+        { heading: 'Base of Operations', fields: [
+          ['Current', '[TODO]'],
+        ]},
       ]
     },
     sections: [
       { id: 'overview', heading: null, content: [
-        { type: 'p', text: '**Nimvaei** and **Liraz** are not two separate people. They are two halves of one — split by trauma. **Liraz Laskaris** is the original self, a child of the [[Tumet Clan]] on [[Hydaelyn]]\'s Azim Steppe. **Nimvaei** is what Liraz became after years under [[Auria Van Varus]] broke her apart — the innocence that survived, filtered through a dissociative break, carrying partial amnesia of her past as Liraz.' },
+        { type: 'p', text: '**Nimvaei** and **Liraz** are not two separate people. They are two halves of one — split by trauma. **Liraz Laskaris** is the original self, a child of the Tumet Clan on [[Hydaelyn]]\'s Azim Steppe. **Nimvaei** is what Liraz became after years under [[Auria Van Varus]] broke her apart — the innocence that survived, filtered through a dissociative break, carrying partial amnesia of her past as Liraz.' },
         { type: 'p', text: 'Their full arc is reintegration. Nimvaei willingly sacrifices herself — not dying, but merging back into Liraz, becoming her living shadow. She becomes the part of Liraz that can still believe in people. Liraz can summon her shadow form.' },
       ]},
       { id: 'appearance', heading: 'Appearance', content: [
-        { type: 'p', text: 'An Au Ra Xaela woman, slender but strong, with black scales and golden eyes. Dark, disheveled hair. At 174 cm she is noticeably taller than typical Au Ra — a consequence of [[Auria Van Varus|Auria\'s]] experimentation. She wears white and blue, a direct visual contrast to [[Zekito Silverblood|Zekito\'s]] black and red.' },
+        { type: 'p', text: 'An Au Ra Xaela woman, slender but strong, with black scales, golden eyes, pale white skin, and dark hair worn long and loose. At 174 cm she is noticeably taller than typical Au Ra — a consequence of [[Auria Van Varus|Auria\'s]] experimentation. Xaela tribal markings run down the side of her face. Her look shifts dramatically by context: as Nimvaei in combat she wears full heavy black Dark Knight plate with silver engravings and fur-trimmed shoulders — deeply gothic and imposing. Off-duty she wears warmer, layered clothing, patterned scarves, embroidered jackets in earthy tones. As Liraz operating under Auria, she wore a dark military long coat with a face covering and red sash — everything concealed, assassin aesthetic. The contrast with [[Zekito Silverblood|Zekito]] is not colour (both wear dark) but register: she looks built for something. He looks like someone who enjoys the fight.' },
         { type: 'p', text: '**Trance Form:** Draconic transformation — partial conversion to [[Woeborn|Nidhogg-like]] scales, fire aether going primal, demonic horns, raw energy. See [[The Trance]].' },
       ]},
-      { id: 'nimvaei-persona', heading: 'Nimvaei — The Surface Self', content: [
+      { id: 'personality', heading: 'Personality', content: [
         { type: 'p', text: 'Curious and engaged, not passive — she synthesizes and reflects back rather than just absorbing. Analytical by instinct. Warm and affectionate without being saccharine; her comfort with [[Zekito Silverblood|Zekito]] is shown through easy banter, not declarations. More formally spoken than him, but not stiff.' },
         { type: 'p', text: 'Her natural aetherial alignment is Fire — mirrors her Dark Knight soul; both are about controlled destruction. Fire comes naturally but is dangerous without discipline.' },
         { type: 'table', headers: ['Detail', 'Notes'],
@@ -1303,12 +1322,12 @@ const ARTICLES = {
         },
         { type: 'quote', text: '"If her fifteen-year-old self were told about the present Nimvaei — the freedom, the strength, the fact that someone would choose her without trying to own or hurt her — she wouldn\'t believe it. Not one word of it."' },
       ]},
-      { id: 'liraz', heading: 'Liraz — The Hidden Self', content: [
+      { id: 'liraz-self', heading: 'Liraz — The Hidden Self', content: [
         { type: 'p', text: 'Cold, jagged, capable. A trained assassin and Dark Knight, groomed from childhood by [[Auria Van Varus]]. She hides inside Nimvaei\'s mind for most of the story, surfacing in moments of crisis. She is afraid of her own Dark Knight abilities — not that they would consume her, but that she might actually want them to.' },
         { type: 'p', text: 'She did not choose the Dark Knight path. She picked up [[Luvsan]]\'s soul crystal from his body. What she did not know until the [[Woeborn]] fight: she had killed the man it belonged to. He had been there trying to free her. She put a knife in his neck because everything in her said threat. She didn\'t know. She didn\'t care. She was safe. That was enough, back then.' },
         { type: 'p', text: 'Liraz\'s breakthrough is mechanical as well as narrative: she can only defeat the shade of [[Luvsan]] inside [[Woeborn]] by letting it stab her — by stopping running from what she is. When she does, the shadow becomes her blade.' },
       ]},
-      { id: 'backstory', heading: 'Backstory', content: [
+      { id: 'history', heading: 'History', content: [
         { type: 'subsection', text: 'Before Auria' },
         { type: 'p', text: 'Before everything, she was quiet, determined, and attentive — a Tumet child who wanted to prove herself to her tribe and earn the honour of a name. At age ten she failed her trial. That failure fractured her certainty. She stopped feeling driven. When hope dwindled, survival took its place.' },
         { type: 'p', text: 'It was out of that fractured survival state that [[Auria Van Varus]] found her. Subject 142Ω. Ten doses of Compound Omega. Age twelve.' },
@@ -1333,6 +1352,22 @@ const ARTICLES = {
           'Single use per engagement — like [[Zekito Silverblood|Zekito\'s]] Xceed, all-or-nothing.',
         ]},
       ]},
+      { id: 'plots', heading: 'Plots', subsections: ['Lunar Rose Arc', "Fury\'s Gaze Arc", 'Runes of Chimera', 'Umbra Arc'], content: [
+        { type: 'subsection', text: 'Lunar Rose Arc' },
+        { type: 'p', text: 'Nimvaei enrolled at [[Lunar Rose Academy]] alongside [[Zekito Silverblood|Zekito]]. Their relationship begins here — teacher/student energy that does not feel unequal. During this arc Zekito revealed he is not from [[Hydaelyn]] and is a half-Fomor. She was present during the Blackguard ambush and killed it — retaining no memory of the fight.' },
+        { type: 'subsection', text: "Fury\'s Gaze Arc" },
+        { type: 'p', text: 'She is the reason [[Zekito Silverblood|Zekito]] escaped [[Fury\'s Gaze]] with his life — details pending. [[Auria Van Varus|Auria]] views Liraz as her stolen creation. [[Lorelai Lesrekta]]'s vendetta begins with what Liraz did to her before the arc.' },
+        { type: 'subsection', text: 'Runes of Chimera' },
+        { type: 'p', text: 'The player character in [[Runes of Chimera]]. She acquires six elemental runes across the quest — Ice, Water, Earth, Levin, Fire, Wind — each tied to a location. The Woeborn fight at Red Rim forces her to relive the memory of killing [[Luvsan]] and finally understand what she had been seeing. She defeats the shade by letting it stab her. The shadow becomes her blade.' },
+        { type: 'subsection', text: 'Umbra Arc' },
+        { type: 'p', text: 'She cut and dyed [[Zekito Silverblood|Zekito\'s]] hair black at the start of this arc to disguise him — silver-white stood out too much. At the same time, he told her for the first time that he has been secretly training her to kill him if he loses control. Full arc details pending.' },
+      ]},
+      { id: 'relationships', heading: 'Relationships', content: [
+        { type: 'p', text: '**[[Zekito Silverblood|Zekito]]:** Partner, best friend, eventual husband. Comfort with him is shown through easy banter, not declarations. She is the only person he has told about the kill-switch training. She is also the person who dyed his hair and made sure he did not get caught.' },
+        { type: 'p', text: '**[[Auria Van Varus|Auria]]:** Her abuser, her maker, the person whose voice still lives in the architecture of her fear responses. Auria views her as a stolen possession.' },
+        { type: 'p', text: '**[[Luvsan]]:** The man she killed without knowing who he was. Whose crystal she carried for years without knowing she had killed him. Whose rage became her courage. He passed the torch. She carries it.' },
+        { type: 'p', text: '**[[Woeborn]]:** Half of her soul is the sword. All inhabitants can reach her. Nimvaei — her living shadow — is inside it.' },
+      ]},
     ],
   },
 
@@ -1346,15 +1381,33 @@ const ARTICLES = {
     todos: [],
     infobox: {
       title: 'Auria Van Varus',
-      fields: [
-        ['Title', 'General of the Garlean Empire'],
-        ['Role', 'Leader of [[Fury\'s Gaze]]'],
-        ['Station', '[[Fury\'s Gaze|Fury\'s Gaze facility]], Western Coerthas Highlands'],
-        ['Height', '168 cm'],
-        ['Eyes', 'Brown — sharp, calculating'],
-        ['Hair', 'Straight, brown, practical military style'],
-        ['Weapon', 'Gunblade'],
-        ['Status', 'Killed in 1582'],
+      imageTabs: [
+        { label: 'Current', src: null, caption: 'White military uniform' },
+        { label: 'Field', src: null, caption: 'Operational attire' },
+      ],
+      groups: [
+        { heading: null, fields: [
+          ['Titles', 'General of the Garlean Empire'],
+          ['Race', 'Hyur (Midlander)'],
+          ['Height', '168 cm'],
+          ['Eyes', 'Brown — sharp, calculating'],
+          ['Hair', 'Straight, brown, practical military style'],
+          ['Weapon', 'Gunblade'],
+        ]},
+        { heading: 'Personal Status', fields: [
+          ['Status', 'Deceased — killed 1582'],
+          ['Relatives', '[TODO]'],
+        ]},
+        { heading: 'Affiliation', fields: [
+          ['Current', 'N/A (deceased)'],
+          ['Previous', "[[Fury's Gaze]] (founder/leader), [[Umbra]] (funded), Garlean Empire (former)"],
+        ]},
+        { heading: 'Occupation', fields: [
+          ['Previous', "General (Garlean Empire), Research Director (Fury's Gaze)"],
+        ]},
+        { heading: 'Base of Operations', fields: [
+          ['Previous', "[[Fury's Gaze]] facility, Western Coerthas Highlands"],
+        ]},
       ]
     },
     sections: [
@@ -1366,11 +1419,15 @@ const ARTICLES = {
         { type: 'p', text: 'Ruthless, ambitious, and cold. She moves with the composure of someone who has already calculated three steps ahead, and the cruelty of someone who finds the calculation enjoyable. Her scientific approach is dispassionate — she observes test subjects the way a researcher watches reactions in a dish. Beneath that detachment, she takes personal pleasure in suffering, particularly in women, because it confirms her power.' },
         { type: 'p', text: 'She values efficiency and precision above all. Every relationship is transactional. Every ally is someone to be used and discarded when necessary. She views compassion as a weapon to exploit, not an experience to have.' },
       ]},
-      { id: 'backstory', heading: 'Backstory', content: [
+      { id: 'history', heading: 'History', content: [
         { type: 'p', text: 'Shaped by years of abuse under a sadistic captain who molded her into a ruthless soldier. In the end, she murdered him and took his place — her first significant act of domination, and the template for everything that followed. During Garlemald\'s collapse she retreated to Coerthas and began building [[Fury\'s Gaze]].' },
       ]},
       { id: 'operations', heading: 'Operations', content: [
         { type: 'p', text: 'Beyond the [[Compound Research|compound programs]], Auria ran parallel operations serving as income streams and subject supply chains. She owned at least one brothel used to traffic women — primarily young women of the same demographic targeted by the [[Lambs of Dalamud]]. This is how [[Nimvaei / Liraz Laskaris|Liraz]] encountered [[Luvsan]]: she was being transported to that brothel when Luvsan attacked Auria\'s men to free the captives. Auria had wanted Luvsan dead for years due to the disruption he caused.' },
+      ]},
+      { id: 'plots', heading: 'Plots', subsections: ["Fury\'s Gaze Arc"], content: [
+        { type: 'subsection', text: "Fury\'s Gaze Arc" },
+        { type: 'p', text: 'Auria runs [[Fury\'s Gaze]] as both a research facility and a criminal operation, funded by [[Umbra]]. She captures [[Zekito Silverblood|Zekito]] (Subject 241Ψ) and administers Compound Psi on her orders. She is killed in 1582 during the events of the Final Days. Her death leaves [[Amelia Graves]] unmoored, [[Cailean Arda]] reporting directly to [[Umbra]], and [[Lorelai Lesrekta]] still hunting [[Nimvaei / Liraz Laskaris|Liraz]] on her own terms.' },
       ]},
       { id: 'relationships', heading: 'Key Relationships', content: [
         { type: 'p', text: '**[[Nimvaei / Liraz Laskaris|Liraz]]:** Auria took Liraz as a child, subjected her to Compound Omega experimentation at age 12, and spent years dismantling and rebuilding her as a prized creation and intended successor. What Auria did not account for: the person she was breaking had a self that refused to fully disappear. Nimvaei is what survived.' },
@@ -1391,14 +1448,29 @@ const ARTICLES = {
     todos: [],
     infobox: {
       title: 'Mores Gwydion',
-      fields: [
-        ['Age (at story time)', '~120+'],
-        ['Origin', 'Werlyt'],
-        ['Current Vessel', 'Orraux Clauvier (body)'],
-        ['Technique', '[[Oversoul]]'],
-        ['Daughter', '[[Mari]]'],
-        ['Sword', '[[Woeborn]]'],
-        ['Fate', 'Dormant inside [[Woeborn]]; eventually at peace'],
+      imageTabs: [
+        { label: 'Young', src: null, caption: 'Werlyt, before the wars' },
+        { label: 'As Orraux', src: null, caption: 'Current vessel, 1582' },
+      ],
+      groups: [
+        { heading: null, fields: [
+          ['True Age', '~120+ (body-hopped since 1537)'],
+          ['Race', 'Human (Werlyt)'],
+          ['Origin', 'Werlyt'],
+          ['Technique', '[[Oversoul]]'],
+          ['Daughter', 'Mari (soul in [[Woeborn]])'],
+        ]},
+        { heading: 'Personal Status', fields: [
+          ['Status', 'Dormant within [[Woeborn]] — at peace'],
+          ['Current Vessel', 'Orraux Clauvier (comatose)'],
+        ]},
+        { heading: 'Affiliation', fields: [
+          ['Current', 'None'],
+          ['Previous', 'Independent mage, Werlyt'],
+        ]},
+        { heading: 'Occupation', fields: [
+          ['Previous', 'Royal Mage; body-hopper'],
+        ]},
       ]
     },
     sections: [
@@ -1422,7 +1494,7 @@ const ARTICLES = {
           ]
         },
       ]},
-      { id: 'roc-role', heading: 'Role in Runes of Chimera', content: [
+      { id: 'plots', heading: 'Plots', content: [
         { type: 'p', text: 'As Orraux, he sends [[Zekito Silverblood|Zekito]] and [[Nimvaei / Liraz Laskaris|Nimvaei]] to collect six specific ingredients across Eorzea, claiming they are for a cure to Blackram disease afflicting his daughter Edrette. In truth, he wrote the book on the ruins himself, engineered the entire quest to harvest the materials he needed, and used Nim and Zek as unwitting lab assistants. [[Zekito Silverblood|Zekito]] caught the scent of his intent early and was immobilised to prevent interference.' },
         { type: 'p', text: 'His goal: a true full resurrection of [[Mari]], not merely the mammet approximation. The six ingredients map to the components of a soul harmonization process — with [[Woeborn]] (containing [[Mari]]\'s soul) as the final vessel.' },
         { type: 'p', text: '**Ending:** [[Nimvaei / Liraz Laskaris|Nimvaei]], with help from [[Luvsan]] (dormant in Woeborn) and the mammet [[Mari]], pulls Mores\' soul into [[Woeborn]], where Nidhogg\'s hunger confines him. Orraux is left comatose. Mores, dormant in the blade, eventually comes to a kind of peace — he is with [[Mari]] again, in a sense.' },
@@ -1440,12 +1512,27 @@ const ARTICLES = {
     todos: [],
     infobox: {
       title: 'Luvsan',
-      fields: [
-        ['Class', 'Dark Knight'],
-        ['Region', 'Western Coerthas Highlands'],
-        ['Sister', 'Taken by [[Auria Van Varus|Auria]]\'s men'],
-        ['Soul Crystal', 'Passed to [[Nimvaei / Liraz Laskaris|Liraz]] in 1578'],
-        ['Status', 'Shade — dormant within [[Woeborn]] after Liraz\'s breakthrough'],
+      imageTabs: [
+        { label: 'Current', src: null, caption: 'Western Coerthas mercenary' },
+      ],
+      groups: [
+        { heading: null, fields: [
+          ['Race', '[TODO]'],
+          ['Job', 'Dark Knight'],
+          ['Region', 'Western Coerthas Highlands'],
+          ['Sister', "Taken by [[Auria Van Varus|Auria]]'s men"],
+        ]},
+        { heading: 'Personal Status', fields: [
+          ['Status', 'Shade — dormant within [[Woeborn]] after passing the torch to Liraz'],
+          ['Soul Crystal', 'Passed to [[Nimvaei / Liraz Laskaris|Liraz]] in 1578'],
+        ]},
+        { heading: 'Affiliation', fields: [
+          ['Current', 'None (dormant)'],
+          ['Previous', 'Independent mercenary'],
+        ]},
+        { heading: 'Occupation', fields: [
+          ['Previous', "Mercenary / Dark Knight — protector of a Coerthas settlement"],
+        ]},
       ]
     },
     sections: [
@@ -1460,7 +1547,8 @@ const ARTICLES = {
         { type: 'p', text: 'He was killed during one of Auria\'s trafficking operations — [[Nimvaei / Liraz Laskaris|Liraz]] was one of the women in the cart being transported to a brothel Auria owned. He was there attacking Auria\'s men, doing what he always did. From her perspective: a fearsome Dark Knight in the middle of a slaughter. [[Auria Van Varus|Auria\'s]] look still fresh in her memory, everything in her screaming to run. She had a job to finish first. She put a knife in his exposed neck, pulled it out, and watched him collapse. She didn\'t know who he was. She didn\'t care. She was safe. Finally.' },
         { type: 'p', text: 'In 1578, [[Nimvaei / Liraz Laskaris|Liraz]] picked up his soul crystal — not knowing she had killed the man it belonged to. Through the crystal, he witnessed what [[Auria Van Varus|Auria]] had been doing to her. His rage at that injustice became her courage. He stirred her soul and gave her the strength to run.' },
       ]},
-      { id: 'woeborn-fight', heading: 'The Woeborn Fight', content: [
+      { id: 'plots', heading: 'Plots', content: [
+        { type: 'subsection', text: 'Runes of Chimera — The Woeborn Fight' },
         { type: 'p', text: 'Inside [[Woeborn]], Luvsan\'s shade manifests as [[Nimvaei / Liraz Laskaris|Liraz\'s]] fear of her own Dark Knight abilities. The [[Woeborn]] fight forces her to relive the full memory — the cart, the other women, him attacking Auria\'s men, the knife, his collapse — and understand, for the first time, what she had actually been seeing.' },
         { type: 'p', text: 'She can only defeat the shade by **letting it stab her** — by stopping running from what she is. When she does, the shadow becomes her blade. Luvsan goes dormant. He passed the torch. He was never an antagonist. He was the person who died trying to free her, whose death she caused without knowing it, whose anger at that injustice became the thing that saved her.' },
       ]},
@@ -1480,12 +1568,31 @@ const ARTICLES = {
     ],
     infobox: {
       title: 'Merlin',
-      fields: [
-        ['Class', 'Druid'],
-        ['Affiliation', '[[The Aces]]'],
-        ['Inventor Of', 'Snap Cast, Spellwalk, Meteor Strike'],
-        ['Student', '[[Zekito Silverblood]]'],
-        ['Status', 'Active — unaged; reports persist of sightings across Erinn'],
+      imageTabs: [
+        { label: 'Current', src: null, caption: 'Appears unchanged for 100+ years' },
+      ],
+      groups: [
+        { heading: null, fields: [
+          ['Race', '[TODO — Erinn]'],
+          ['Job', 'Druid'],
+          ['Inventions', 'Snap Cast, Spellwalk, Meteor Strike'],
+          ['Student', '[[Zekito Silverblood]]'],
+        ]},
+        { heading: 'Personal Status', fields: [
+          ['Status', 'Active — unaged; sightings across Erinn persist'],
+          ['True Nature', '[TODO — what is Merlin exactly?]'],
+        ]},
+        { heading: 'Affiliation', fields: [
+          ['Current', '[[The Aces]] (presumed)'],
+          ['Previous', 'Royal Castle Druid'],
+        ]},
+        { heading: 'Occupation', fields: [
+          ['Current', 'Wandering adventurer'],
+          ['Previous', 'Royal Castle Druid'],
+        ]},
+        { heading: 'Base of Operations', fields: [
+          ['Current', 'Unknown — travels [[Erinn]]'],
+        ]},
       ]
     },
     sections: [
@@ -1505,12 +1612,18 @@ const ARTICLES = {
       { id: 'zekito', heading: 'Mentorship of Zekito', content: [
         { type: 'p', text: 'Merlin tested both [[Zekito Silverblood|Zekito]] and [[Mewecho]] before agreeing to enhance their bracelets. [[Mewecho]] returned to [[Audacia]]; [[Zekito Silverblood|Zekito]] spent four years travelling with [[The Aces]] under Merlin\'s mentorship. The training was rigorous and genuine — when Zekito left, Merlin gave him the custom knuckles as a farewell gift, without ceremony. The playful exterior and the real investment in other people\'s growth are both true.' },
       ]},
+      { id: 'history', heading: 'History', content: [
+        { type: 'p', text: 'Cast his first Lightning Bolt at age three. Invented his first spell at eleven. Mastered every known form of magic by twenty-three. Was made Royal Castle Druid. The work lacked challenge. He vanished in search of adventure over a century ago and has not aged a day since. [TODO: What Merlin actually is remains an open question — even he is not forthcoming about it.]' },
+      ]},
+      { id: 'plots', heading: 'Plots', content: [
+        { type: 'p', text: 'Merlin appears at key moments across [[Erinn]] — testing [[Zekito Silverblood|Zekito]] and [[Mewecho]], enhancing their bracelets, spending four years mentoring Zekito, giving him the custom knuckles on departure. His appearances follow a consistent pattern: he arrives when someone genuinely needs him, leaves without ceremony, and does not explain himself. What he does between appearances is not documented.' },
+      ]},
     ],
   },
 
   'mewecho': {
     id: 'mewecho',
-    title: 'Mewecho',
+    title: 'Mewecho Silverblood',
     subtitle: '"The gentle flower" — lost in the frozen wastes.',
     category: 'character',
     tags: ['character', 'erinn', 'fomorian'],
@@ -1522,26 +1635,59 @@ const ARTICLES = {
       "What happened to her during and after the Zealots arc",
     ],
     infobox: {
-      title: 'Mewecho',
-      fields: [
-        ['Race', "Miqo'te / Fomorian half-breed"],
-        ['Origin', 'Erinn — sent to the Vales as a child'],
-        ['Relation', 'Twin sister of [[Zekito Silverblood]]'],
-        ['Bracelet', 'Twin bracelet attuned to [[Zekito Silverblood|Zekito\'s]]'],
-        ['Affiliation', '[[Nixia]] (officer); later [[Audacia]]'],
+      title: 'Mewecho Silverblood',
+      imageTabs: [
+        { label: 'Child', src: null, caption: 'The Vales, early years' },
+        { label: 'Teen', src: null, caption: 'Erinn' },
+        { label: 'Current', src: null, caption: 'Erinn — adult' },
+      ],
+      groups: [
+        { heading: null, fields: [
+          ['Race', "Miqo'te / Fomorian half-breed"],
+          ['Origin', 'Erinn — sent to the Vales as a child'],
+          ['Height', 'Smaller than Zekito'],
+          ['Hair', 'Silver-white'],
+          ['Weapon', 'Greatsword'],
+          ['Signature Color', 'Blue'],
+        ]},
+        { heading: 'Personal Status', fields: [
+          ['Status', 'Alive (Erinn — presumed)'],
+          ['Relatives', "[[Isanshiro]] (father), [[Zekito Silverblood]] (twin brother), Unnamed Fomorian mother (deceased)"],
+          ['Bracelet', "Twin bracelet — attuned to [[Zekito Silverblood|Zekito's]]"],
+        ]},
+        { heading: 'Affiliation', fields: [
+          ['Current', '[TODO]'],
+          ['Previous', '[[Nixia]] (officer), [[Audacia]]'],
+        ]},
+        { heading: 'Occupation', fields: [
+          ['Previous', 'Guild officer (Nixia), Adventurer'],
+        ]},
+        { heading: 'Base of Operations', fields: [
+          ['Current', '[TODO]'],
+          ['Previous', 'The Vales; Audacia Guild Hall'],
+        ]},
       ]
     },
     sections: [
       { id: 'overview', heading: null, content: [
-        { type: 'p', text: '**Mewecho** is [[Zekito Silverblood|Zekito\'s]] twin sister and the other surviving child of [[Isanshiro]] and their Fomorian mother. Where Zekito was sent to [[Tir Chonaill]] as a farm boy, she was sent alone to the cold northern [[Vales]] — a far harsher fate. She carries the same [[Fomorian Blood|Fomorian blood]] as her brother. Her bracelet is the twin of his, the two attuned to each other so they can never truly lose one another.' },
+        { type: 'p', text: '**Mewecho Silverblood** is [[Zekito Silverblood|Zekito\'s]] twin sister and the other surviving child of [[Isanshiro]] and their Fomorian mother. Where Zekito was sent to [[Tir Chonaill]] as a farm boy, she was sent alone to the cold northern [[Vales]] — a far harsher fate. She carries the same [[Fomorian Blood|Fomorian blood]] as her brother. Her bracelet is the twin of his, the two attuned to each other so they can never truly lose one another.' },
         { type: 'p', text: 'The twins met entirely by chance in [[Erinn]] — she was serving as an officer of [[Nixia]] when [[Zekito Silverblood|Zekito]] arrived to negotiate on [[Audacia]]\'s behalf. They interacted through the full guild conflict without knowing they were siblings. The truth came during a joint mission through [[Iria]]: a dragon descended, [[Mewecho]] lost control of her Fomorian blood in a berserk rage and felled the beast — and [[Zekito Silverblood|Zekito]] recognized her bracelet.' },
+      ]},
+      { id: 'history', heading: 'History', content: [
+        { type: 'subsection', text: 'The Vales' },
+        { type: 'p', text: 'While [[Zekito Silverblood|Zekito]] was sent to [[Tir Chonaill]] as a farm boy, Mewecho was sent alone to the cold northern [[Vales]] — a harsher fate for a child. She carried the same Fomorian blood with no one to guide her through it.' },
+        { type: 'subsection', text: 'Nixia' },
+        { type: 'p', text: 'Mewecho rose to become an officer of [[Nixia]] — the splinter guild that broke off from [[Audacia]]. When [[Zekito Silverblood|Zekito]] arrived at Nixia to negotiate on Audacia\'s behalf, they interacted through the full guild conflict without either knowing the other was their sibling. The truth came during a joint mission through Iria: a dragon, her berserk rage felling the beast, and Zekito recognizing her bracelet.' },
+      ]},
+      { id: 'plots', heading: 'Plots', content: [
+        { type: 'p', text: '[TODO: Mewecho\'s full arc. Her role after Zekito leaves for Hydaelyn. What becomes of her during the events of the main story.]' },
       ]},
     ],
   },
 
   'isanshiro': {
     id: 'isanshiro',
-    title: 'Isanshiro',
+    title: 'Isanshiro Silverblood',
     subtitle: 'The Silver King — merchant, ruler, father, absence.',
     category: 'character',
     tags: ['character', 'erinn', 'milletian'],
@@ -1553,18 +1699,72 @@ const ARTICLES = {
       "Confirmed does not arrive in Hydaelyn/Eorzea",
     ],
     infobox: {
-      title: 'Isanshiro',
-      fields: [
-        ['Title', 'The Silver King'],
-        ['Race', 'Milletian (being from another world)'],
-        ['Children', '[[Zekito Silverblood]], [[Mewecho]] (twins)'],
-        ['Kingdom', '[[The Silver Kingdom]] (destroyed)'],
+      title: 'Isanshiro Silverblood',
+      imageTabs: [
+        { label: 'Current', src: null, caption: 'The Silver King' },
+      ],
+      groups: [
+        { heading: null, fields: [
+          ['Titles', 'The Silver King'],
+          ['Race', 'Milletian (being from another world)'],
+          ['Hair', 'Silver (namesake)'],
+        ]},
+        { heading: 'Personal Status', fields: [
+          ['Status', 'Alive (Erinn) — does not arrive in Hydaelyn'],
+          ['Relatives', '[[Zekito Silverblood]], [[Mewecho]] (twins); unnamed Fomorian partner (deceased)'],
+        ]},
+        { heading: 'Affiliation', fields: [
+          ['Previous', 'The Silver Kingdom (founder/ruler)'],
+        ]},
+        { heading: 'Occupation', fields: [
+          ['Previous', 'Ruler — The Silver Kingdom'],
+        ]},
+        { heading: 'Base of Operations', fields: [
+          ['Current', '[TODO]'],
+          ['Previous', 'The Silver Kingdom (destroyed)'],
+        ]},
       ]
     },
     sections: [
       { id: 'overview', heading: null, content: [
-        { type: 'p', text: '**Isanshiro**, known as the Silver King, is a Milletian — a being from another world — who traveled [[Erinn]], amassed a fortune, and used it to build [[The Silver Kingdom]] for the destitute. His relationship with a Fomorian woman was the forbidden union that caused the [[Knights of Light]] to destroy everything he built. To protect his twin children, he placed memory seals on them and had them escorted to different parts of Erinn before the castle fell.' },
+        { type: 'p', text: '**Isanshiro Silverblood**, known as the Silver King, is a Milletian — a being from another world — who traveled [[Erinn]], amassed a fortune, and used it to build [[The Silver Kingdom]] for the destitute. His relationship with a Fomorian woman was the forbidden union that caused the [[Knights of Light]] to destroy everything he built. To protect his twin children, he placed memory seals on them and had them escorted to different parts of Erinn before the castle fell.' },
         { type: 'p', text: 'He placed memory seals on the twins to protect them, then disappeared. He later resurfaced in contact with [[Mewecho]], who kept this secret from [[Zekito Silverblood|Zekito]] out of fear of his reaction. He is deeply guarded about what happened to the twins\' mother — the one subject he will not discuss.' },
+        { type: \'p\', text: \'**The Silverblood name** did not come from Isanshiro — his true name before he became the Silver King is unknown. The name grew from outside: references to \'the silver-haired bloodline\' shortened over time to \'the Silverbloods\', and eventually became the family name that Zekito and Mewecho carry. A name earned from history rather than given at birth.\' },
+      ]},
+      { id: 'history', heading: 'History', content: [
+        { type: 'p', text: 'A Milletian from another world, Isanshiro traveled Erinn for years before amassing his fortune and building [[The Silver Kingdom]] for the destitute. At some point he entered into a relationship with a Fomorian woman — a forbidden union that brought the [[Knights of Light]] down upon his kingdom. He placed memory seals on the twins and had them escorted to safety before the siege destroyed everything he had built.' },
+        { type: 'p', text: 'The name Isanshiro Silverblood is not his original name. His true name before he became the Silver King is unknown. The surname grew from outside: references to the silver-haired bloodline became the Silverbloods collectively, eventually hardening into a family name. He did not choose it. History chose it for him.' },
+        { type: 'subsection', text: 'Chapter L̵̾̔õ̵̾s̷̟̓t̶̓̓: A Bard\'s Tale of Forgotten Times' },
+        { type: 'p', text: 'A bardic verse circulating in Eorzea. [[Zekito Silverblood|Zekito]] has encountered it and does not know it is about him. He reads it as an interesting historical piece about someone else\'s tragedy.' },
+        { type: 'rp', lines: [
+          { speaker: '', text: 'Long ago, in a forgotten history, lived a simple merchant.' },
+          { speaker: '', text: 'A drifter of the world, for he had no name nor home.' },
+          { speaker: '', text: 'A drifter to be known, for his heart of gold.' },
+          { empty: true },
+          { speaker: '', text: 'With silver hair, and silver coin, would his word carry forth.' },
+          { speaker: '', text: 'To live and give, to make believe, oh the poor-gotten sod.' },
+          { empty: true },
+          { speaker: '', text: 'In times of strife, his name be called, oh kind Merchant of Silver.' },
+          { speaker: '', text: 'In time of need, to raise and give, the drifter would come hither.' },
+          { empty: true },
+          { speaker: '', text: 'And thus, the lone would gain its flock, a castle to be raised.' },
+          { speaker: '', text: 'The drifter crowned as Silver King, a feast is to be held.' },
+          { empty: true },
+          { speaker: '', text: 'Forbidden love with poisoned kisses, the twin fruits of our passion.' },
+          { speaker: '', text: 'The gentle flower and eager watcher, celebrated for occasion.' },
+          { empty: true },
+          { speaker: '', text: 'Yet faith is steep and demons weep, a dark cloud on horizon.' },
+          { speaker: '', text: 'When men of cloth are moving forth, to get rid of the frighten.' },
+          { empty: true },
+          { speaker: '', text: 'And thus, was history lost to ruin.' },
+          { speaker: '', text: 'The glint of silver, painted red.' },
+          { speaker: '', text: 'The twin breaths drifting in the wind.' },
+          { speaker: '', text: "There\'s rumors they have fled." },
+        ]},
+        { type: 'p', text: 'The drifter is Isanshiro. The twin fruits — the gentle flower and eager watcher — are [[Mewecho Silverblood|Mewecho]] and [[Zekito Silverblood|Zekito]]. The men of cloth are the Knights of Light. The frighten is Zekito\'s mother. The verse does not know what happened to the twins — only that they were not found.' },
+      ]},
+      { id: 'plots', heading: 'Plots', content: [
+        { type: 'p', text: 'Isanshiro does not arrive in [[Hydaelyn]]. He resurfaced in [[Erinn]] in contact with [[Mewecho Silverblood|Mewecho]], who kept this secret from [[Zekito Silverblood|Zekito]] out of fear of his reaction. He is deeply guarded about what happened to the twins\' mother — the one subject he will not discuss. [TODO: Full backstory and role going forward.]' },
       ]},
     ],
   },
@@ -1581,13 +1781,27 @@ const ARTICLES = {
     ],
     infobox: {
       title: 'Lorelai Lesrekta',
-      fields: [
-        ['Age at Filing', '18'],
-        ['Subject File', '216Ψ'],
-        ['Bond', 'Cerberus, Rung Three (voidsent)'],
-        ['Affiliation', '[[Umbra]] (Asset)'],
-        ['Compound Dependency', 'Compound Psi — required for survival'],
-        ['Goal', '[[Nimvaei / Liraz Laskaris|Liraz]] — personally'],
+      imageTabs: [
+        { label: 'Current', src: null, caption: 'Post-Compound Psi bonding' },
+      ],
+      groups: [
+        { heading: null, fields: [
+          ['Race', '[TODO]'],
+          ['Age at Filing', '18'],
+          ['Subject File', '216Ψ'],
+          ['Voidsent Bond', 'Cerberus, Rung Three'],
+        ]},
+        { heading: 'Personal Status', fields: [
+          ['Status', 'Alive — Compound Psi dependent'],
+          ['Relatives', '[TODO]'],
+        ]},
+        { heading: 'Affiliation', fields: [
+          ['Current', '[[Umbra]] (Asset)'],
+          ['Previous', "[Fury's Gaze] experimental subject"],
+        ]},
+        { heading: 'Occupation', fields: [
+          ['Current', 'Umbra asset / hunter'],
+        ]},
       ]
     },
     sections: [
@@ -1595,7 +1809,16 @@ const ARTICLES = {
         { type: 'p', text: '**Lorelai Lesrekta** is an [[Umbra]] asset — the result of [[Auria Van Varus|Auria\'s]] Compound Psi program. She was brought in confirmed dead after [[Nimvaei / Liraz Laskaris|Liraz]] stabbed her, and bonded to a voidsent (Cerberus, Rung Three) through a Darkhold Rift infusion. She retained her sense of self despite the fiend\'s presence — but requires regular doses of Compound Psi to survive. [[Umbra]] holds that leash.' },
         { type: 'p', text: 'Her goal is [[Nimvaei / Liraz Laskaris|Liraz]] — personally. Her vendetta is not ideological; it is specific. She was also the one who dragged [[Zekito Silverblood|Zekito]] back to his cell when he nearly escaped [[Fury\'s Gaze]].' },
       ]},
-      { id: 'abilities', heading: 'Abilities', content: [
+      { id: 'history', heading: 'History', content: [
+        { type: 'p', text: 'Lorelai was stabbed by [[Nimvaei / Liraz Laskaris|Liraz]] and brought in confirmed dead. She was bonded to a Cerberus voidsent (Rung Three) through a Darkhold Rift infusion at [[Fury\'s Gaze]] — one of the few Compound Psi successes. She retained her sense of self despite the fiend\'s presence, but requires regular doses to survive. [[Umbra]] holds that dependency as a leash. [TODO: Full backstory before Fury\'s Gaze.]' },
+      ]},
+      { id: 'plots', heading: 'Plots', content: [
+        { type: 'subsection', text: "Fury\'s Gaze Arc" },
+        { type: 'p', text: 'She dragged [[Zekito Silverblood|Zekito]] back to his cell after his escape attempt — she is the reason the escape failed. Her vendetta against [[Nimvaei / Liraz Laskaris|Liraz]] is personal, not ideological.' },
+        { type: 'subsection', text: 'Umbra Arc' },
+        { type: 'p', text: 'Returns as a hunter-type antagonist. Uses voidsent abilities to track prey. [TODO: Full role in the Umbra arc.]' },
+      ]},
+      { id: 'abilities', heading: 'Powers & Abilities', content: [
         { type: 'ul', items: [
           'Enhanced strength, speed, and reaction time exceeding [[Nimvaei / Liraz Laskaris|Liraz\'s]] at the time of her file.',
           '**Black mass regeneration:** Lost limbs regrow — the black mass acts as a protective shell for reconstruction. Extreme mental strain during the process ("The Madness").',
@@ -1617,18 +1840,42 @@ const ARTICLES = {
     todos: [],
     infobox: {
       title: 'Amelia Graves',
-      fields: [
-        ['Age', '23'],
-        ['Subject File', '46Ω'],
-        ['Doses Received', '6 (Compound Omega)'],
-        ['Affiliation', '[[Umbra]] (Shade + Asset)'],
-        ['Status', 'FAILURE — compound outcome'],
+      imageTabs: [
+        { label: 'Current', src: null, caption: 'Post-Compound Omega' },
+      ],
+      groups: [
+        { heading: null, fields: [
+          ['Race', '[TODO]'],
+          ['Age', '23'],
+          ['Subject File', '46Ω'],
+          ['Doses Received', '6 (Compound Omega)'],
+          ['Weapon', 'Axe'],
+          ['Combat Role', 'Tank'],
+        ]},
+        { heading: 'Personal Status', fields: [
+          ['Status', 'Alive — total sensory loss'],
+          ['Compound Result', 'FAILURE — overdose'],
+          ['Relatives', '[TODO]'],
+        ]},
+        { heading: 'Affiliation', fields: [
+          ['Current', '[[Umbra]] (Shade + Asset)'],
+          ['Previous', "[[Fury's Gaze]] experimental subject"],
+        ]},
       ]
     },
     sections: [
       { id: 'overview', heading: null, content: [
         { type: 'p', text: '**Amelia Graves** is an [[Umbra]] operative — Shade and Asset — and one of [[Auria Van Varus|Auria\'s]] experimental subjects. Six doses of Compound Omega progressively degraded her sensory function. Pain receptors first, then all sensation. Motor function and cognition remain intact. She can move, speak, and fight. She cannot feel anything.' },
         { type: 'p', text: 'Except, it seems, for [[Auria Van Varus|Auria]]. Amelia loves her — genuinely, in whatever broken way is left to someone who can no longer feel warmth, cold, pain, or touch. With [[Auria Van Varus|Auria]] gone, that love is unmoored with nowhere to go. [[Umbra]] considers this a serious volatility risk. She is a grenade with the pin already pulled.' },
+      ]},
+      { id: 'history', heading: 'History', content: [
+        { type: 'p', text: '[TODO: Amelia\'s full backstory — who she was before Compound Omega, how she came to be in Auria\'s orbit, what the six doses actually did to her over time.]' },
+      ]},
+      { id: 'plots', heading: 'Plots', content: [
+        { type: 'subsection', text: "Fury\'s Gaze Arc" },
+        { type: 'p', text: 'Active alongside [[Lexus Ovicula]] at Limsa Lominsa, operating under a surface company name. Present at Drybone alongside other [[Fury\'s Gaze]] operations. Highly volatile if [[Nimvaei / Liraz Laskaris|Liraz]] is present or her failure is mentioned.' },
+        { type: 'subsection', text: 'Post-Auria / Umbra Arc' },
+        { type: 'p', text: 'With [[Auria Van Varus|Auria]] dead, Amelia\'s love has nowhere to go. [[Umbra]] classifies this as a serious volatility risk. She is an asset whose leash is fraying. [TODO: Full role in Umbra arc.]' },
       ]},
     ],
   },
@@ -1643,20 +1890,40 @@ const ARTICLES = {
     todos: [],
     infobox: {
       title: 'Hapus Anrhefn',
-      fields: [
-        ['Age', '34'],
-        ['Subject File', '178Φ'],
-        ['Days in Chamber', '14 (Compound Phi)'],
-        ['Affiliation', '[[Umbra]] (Asset)'],
-        ['Status', 'FAILURE — compound outcome'],
-        ['Weapon', 'Handgun'],
+      imageTabs: [
+        { label: 'Current', src: null, caption: 'Right eye visually altered' },
+      ],
+      groups: [
+        { heading: null, fields: [
+          ['Race', '[TODO]'],
+          ['Age', '34'],
+          ['Subject File', '178Φ'],
+          ['Days in Chamber', '14 (Compound Phi)'],
+          ['Weapon', 'Handgun'],
+          ['Combat Role', 'Infiltrator'],
+        ]},
+        { heading: 'Personal Status', fields: [
+          ['Status', 'Alive — limited Resonant-adjacent abilities'],
+          ['Compound Result', 'FAILURE — sub-par Resonant replication'],
+          ['Loyalty', 'None — follows whoever is most interesting'],
+        ]},
+        { heading: 'Affiliation', fields: [
+          ['Current', '[[Umbra]] (Asset)'],
+          ['Previous', "[[Fury's Gaze]] experimental subject"],
+        ]},
       ]
     },
     sections: [
       { id: 'overview', heading: null, content: [
         { type: 'p', text: '**Hapus Anrhefn** is an [[Umbra]] asset who emerged from [[Auria Van Varus|Auria\'s]] Compound Phi program with limited Resonant-adjacent abilities. Not loyal to any cause. He follows whoever provides the most interesting scene. No moral floor. He will kill without remorse if it suits the moment — not cruel, just indifferent. There is nothing to appeal to.' },
       ]},
-      { id: 'abilities', heading: 'Abilities', content: [
+      { id: 'history', heading: 'History', content: [
+        { type: 'p', text: '[TODO: Hapus\' full backstory — who he was before the experiments, how he ended up as a Compound Phi subject, what his life looks like between deployments.]' },
+      ]},
+      { id: 'plots', heading: 'Plots', content: [
+        { type: 'p', text: 'Present during [[Fury\'s Gaze]] and [[Umbra]] arc operations. Wildcard — his participation in any given situation depends entirely on whether he finds it interesting. [TODO: Specific encounters and outcomes.]' },
+      ]},
+      { id: 'abilities', heading: 'Powers & Abilities', content: [
         { type: 'ul', items: [
           'Thought-reading: predicts incoming actions with accuracy consistent with reading minds. Does not affect Forgekin.',
           'Illusion creation: reveals his right eye, creates illusions — requires line of sight to target.',
@@ -2132,6 +2399,424 @@ const ARTICLES = {
     ],
   },
 
+
+  // ─── PARTY MEMBERS ───────────────────────────────────────────
+
+  'kiku-kha': {
+    id: 'kiku-kha',
+    title: 'Kiku Kha',
+    subtitle: 'She notices everything. She only acts when Hwaryun is in danger.',
+    category: 'character',
+    tags: ['character', 'hydaelyn', 'party'],
+    stub: true,
+    todos: ['Full backstory and appearance', 'Job / weapon details', 'Full arc role'],
+    infobox: {
+      title: 'Kiku Kha',
+      imageTabs: [{ label: 'Current', src: null, caption: '' }],
+      groups: [
+        { heading: null, fields: [
+          ['Race', '[TODO]'],
+          ['Affiliation', 'The Rose and Her Thorns'],
+          ['Combat Role', 'Fighter — aetherial enhancement (Berserker Mode)'],
+        ]},
+        { heading: 'Personal Status', fields: [
+          ['Status', 'Alive'],
+          ['Closest To', '[[Hwaryun Tzuyu|Hwaryun]]'],
+        ]},
+      ]
+    },
+    sections: [
+      { id: 'overview', heading: null, content: [
+        { type: 'p', text: '**Kiku Kha** is a member of the Rose and Her Thorns — the party investigating and opposing [[Auria Van Varus|Auria\'s]] operations. Observational by nature and a formidable fighter, she is the person most likely to notice something before anyone else does.' },
+      ]},
+      { id: 'personality', heading: 'Personality', content: [
+        { type: 'table', headers: ['Trait', 'Detail'],
+          rows: [
+            ['Strength', 'Observational, strong fighter, aetherial enhancement'],
+            ['Berserker Mode', 'Aetherial enhancement for massive strength boost — loses sight of friend and foe. Everyone becomes a target.'],
+            ['Glamour Prism', 'Can change her physical appearance. Does NOT affect her voice.'],
+            ['Weakness', 'Berserker Mode risk — prone to battle frenzy'],
+            ['Hates', 'Anyone hurting Hwaryun'],
+          ]
+        },
+      ]},
+    ],
+  },
+
+  'sol-farseeker': {
+    id: 'sol-farseeker',
+    title: 'Solemnic Farseeker',
+    subtitle: 'Tactics, planning, math. Just — please — not small talk.',
+    category: 'character',
+    tags: ['character', 'hydaelyn', 'party'],
+    stub: true,
+    todos: ['Full backstory and appearance', 'Job / magic details', 'Full arc role'],
+    infobox: {
+      title: 'Solemnic Farseeker',
+      imageTabs: [{ label: 'Current', src: null, caption: '' }],
+      groups: [
+        { heading: null, fields: [
+          ['Race', '[TODO]'],
+          ['Nickname', 'Sol'],
+          ['Affiliation', 'The Rose and Her Thorns'],
+          ['Combat Role', 'Magic / tactics'],
+        ]},
+        { heading: 'Personal Status', fields: [
+          ['Status', 'Alive'],
+        ]},
+      ]
+    },
+    sections: [
+      { id: 'overview', heading: null, content: [
+        { type: 'p', text: '**Solemnic Farseeker** (known as Sol) is the tactician of the Rose and Her Thorns. Tactics, planning, magic, combat, math — he is capable across the board. Social situations are the one thing that unravel him.' },
+      ]},
+      { id: 'personality', heading: 'Personality', content: [
+        { type: 'table', headers: ['Trait', 'Detail'],
+          rows: [
+            ['Strengths', 'Tactics, planning, magic, combat, math'],
+            ['Weakness', 'Timid in social situations; over-reliant on sheer logic'],
+            ['Notable', 'Saved [[Maya Takagi|Maya\'s]] life at some point — she feels she owes him, which could be exploited'],
+            ['Hates', 'Voidsent'],
+          ]
+        },
+      ]},
+    ],
+  },
+
+  'maya-takagi': {
+    id: 'maya-takagi',
+    title: 'Maya Takagi',
+    subtitle: 'She has been on an actual battlefield. She does not forget it.',
+    category: 'character',
+    tags: ['character', 'hydaelyn', 'party'],
+    stub: true,
+    todos: ['Full backstory and appearance', 'Full arc role', 'Reference: https://mayat.carrd.co/'],
+    infobox: {
+      title: 'Maya Takagi',
+      imageTabs: [{ label: 'Current', src: null, caption: '' }],
+      groups: [
+        { heading: null, fields: [
+          ['Race', '[TODO]'],
+          ['Affiliation', 'The Rose and Her Thorns'],
+          ['Combat Role', 'Battlefield experience / medical knowledge / charm'],
+          ['Reference', 'mayat.carrd.co'],
+        ]},
+        { heading: 'Personal Status', fields: [
+          ['Status', 'Alive'],
+        ]},
+      ]
+    },
+    sections: [
+      { id: 'overview', heading: null, content: [
+        { type: 'p', text: '**Maya Takagi** brings real-world battlefield experience to the Rose and Her Thorns — she served in Ilsabard on active duty. Logic, charm, and medical knowledge round out a formidable and well-rounded operative.' },
+      ]},
+      { id: 'personality', heading: 'Personality', content: [
+        { type: 'table', headers: ['Trait', 'Detail'],
+          rows: [
+            ['Strengths', 'Logic, charm, medical knowledge, battlefield experience (Ilsabard — active duty)'],
+            ['Weakness', 'Hydrophobia; prone to repaying debts (e.g. Sol saved her life — she feels she owes him)'],
+            ['Hates', 'Slavery, sexual violence, narcissists, victim complex, braggarts, rich assholes'],
+          ]
+        },
+      ]},
+    ],
+  },
+
+  'hwaryun-tzuyu': {
+    id: 'hwaryun-tzuyu',
+    title: 'Hwaryun Tzuyu',
+    subtitle: '"Gun fetish." — Maya',
+    category: 'character',
+    tags: ['character', 'hydaelyn', 'party'],
+    stub: true,
+    todos: ['Full backstory and appearance', 'Full arc role'],
+    infobox: {
+      title: 'Hwaryun Tzuyu',
+      imageTabs: [{ label: 'Current', src: null, caption: '' }],
+      groups: [
+        { heading: null, fields: [
+          ['Race', '[TODO]'],
+          ['Nickname', 'Ryun'],
+          ['Affiliation', 'The Rose and Her Thorns'],
+          ['Combat Role', 'Expert markswoman'],
+        ]},
+        { heading: 'Personal Status', fields: [
+          ['Status', 'Alive'],
+          ['Closest To', '[[Kiku Kha|Kiku]]'],
+        ]},
+      ]
+    },
+    sections: [
+      { id: 'overview', heading: null, content: [
+        { type: 'p', text: '**Hwaryun Tzuyu** (known as Ryun) is the markswoman of the Rose and Her Thorns. Extremely confident in her marksmanship — her go-to weapon since before Lunar Rose. The hesitance comes when she has to make a decision, not when she has to pull a trigger.' },
+      ]},
+      { id: 'personality', heading: 'Personality', content: [
+        { type: 'table', headers: ['Trait', 'Detail'],
+          rows: [
+            ['Strengths', 'Expert markswoman — her go-to weapon since before Lunar Rose. Very confident in marksmanship.'],
+            ['Weakness', 'Has never taken a life (leads to hesitance in combat). Impulsive when [[Kiku Kha|Kiku]] is threatened. Too honest and open. Indecisive under forced split-second choices — acts once someone she trusts moves first.'],
+            ['Hates', 'Anyone hurting or threatening her friends. Anyone forcing major split-moment decisions.'],
+          ]
+        },
+      ]},
+    ],
+  },
+
+  'ordette-duflaya': {
+    id: 'ordette-duflaya',
+    title: "Ordette Du'Flaya",
+    subtitle: 'Still learning. Still trusting. Still standing.',
+    category: 'character',
+    tags: ['character', 'hydaelyn', 'party'],
+    stub: true,
+    todos: ['Full backstory and appearance', 'Full arc role', 'Details on A\'gil and her family'],
+    infobox: {
+      title: "Ordette Du'Flaya",
+      imageTabs: [{ label: 'Current', src: null, caption: '' }],
+      groups: [
+        { heading: null, fields: [
+          ['Race', '[TODO]'],
+          ['Affiliation', 'The Rose and Her Thorns'],
+          ['Job', 'Conjurer (in training)'],
+        ]},
+        { heading: 'Personal Status', fields: [
+          ['Status', 'Alive'],
+          ['Guardian', "A'gil (overly protective)"],
+        ]},
+      ]
+    },
+    sections: [
+      { id: 'overview', heading: null, content: [
+        { type: 'p', text: "**Ordette Du'Flaya** is the youngest and least experienced member of the Rose and Her Thorns in terms of combat. Her merchant upbringing gave her practical skills; her guardian A'gil's overprotectiveness left her sheltered. She is still learning conjury. She is also still standing, which says something." },
+      ]},
+      { id: 'personality', heading: 'Personality', content: [
+        { type: 'table', headers: ['Trait', 'Detail'],
+          rows: [
+            ['Strengths', "Conjury (training). Merchant upbringing — practical business knowledge."],
+            ['Weakness', "Sheltered (guardian A'gil was overly protective). Limited battlefield experience. Trauma from being shot in the leg during the Ishgard LRA incident — first serious injury, may push for peaceful routes. Too trusting."],
+            ['Hates', 'Anyone insulting or hurting her family.'],
+          ]
+        },
+      ]},
+    ],
+  },
+
+  // ─── UMBRA ARC CHARACTERS ─────────────────────────────────────
+
+  'cailean-arda': {
+    id: 'cailean-arda',
+    title: 'Cailean Arda',
+    subtitle: 'He was never Auria\'s. He was always watching.',
+    category: 'character',
+    tags: ['character', 'hydaelyn', 'umbra', 'fury-gaze'],
+    stub: true,
+    todos: ['Full backstory — why does Cailean work for Umbra?', 'Full Umbra arc role', 'Physical appearance'],
+    infobox: {
+      title: 'Cailean Arda',
+      imageTabs: [{ label: 'Current', src: null, caption: '' }],
+      groups: [
+        { heading: null, fields: [
+          ['Born', '1552'],
+          ['Race', '[TODO]'],
+          ['Job', 'Scholar (SCH) — fights alongside a fairy/pixie simultaneously'],
+          ['Combat Role', 'Schemer / gank-type fighter'],
+        ]},
+        { heading: 'Personal Status', fields: [
+          ['Status', 'Alive'],
+        ]},
+        { heading: 'Affiliation', fields: [
+          ['Current', '[[Umbra]] (Specter — highest operative tier)'],
+          ['Previous', '[[Fury\'s Gaze]] (embedded mole)'],
+        ]},
+        { heading: 'Occupation', fields: [
+          ['Current', 'Umbra operative — retrieving Assets post-Auria'],
+          ['Previous', "[[Auria Van Varus|Auria]]'s apparent second-in-command (cover)"],
+        ]},
+      ]
+    },
+    sections: [
+      { id: 'overview', heading: null, content: [
+        { type: 'p', text: '**Cailean Arda** is an [[Umbra]] Specter — the highest operative tier. He was placed inside [[Fury\'s Gaze]] deliberately as an embedded observer, tasked with monitoring [[Auria Van Varus|Auria\'s]] progress and protecting Umbra\'s investment from the inside. He presented as her apparent second-in-command. She never knew he was watching.' },
+        { type: 'p', text: 'A schemer through and through — there is a purpose behind every action he takes. He also performed experiments on other members of the Six and treats it as good fun. After [[Auria Van Varus|Auria\'s]] death, Umbra assigned him to retrieve the Assets. The directed arrow from Umbra to Cailean on the connections chart indicates he reports directly above and around Auria\'s chain of command.' },
+      ]},
+      { id: 'plots', heading: 'Plots', content: [
+        { type: 'subsection', text: 'Fury\'s Gaze Arc' },
+        { type: 'p', text: 'Present throughout [[Zekito Silverblood|Zekito\'s]] captivity as [[Umbra\'s]] embedded observer. Watched the Subject 241Ψ situation develop without intervening.' },
+        { type: 'subsection', text: 'Umbra Arc' },
+        { type: 'p', text: 'Returns as an antagonist, now acting openly on [[Umbra\'s]] orders. His goal is to retrieve the surviving Assets from the now-destroyed Fury\'s Gaze program. Full arc details pending.' },
+      ]},
+    ],
+  },
+
+  'lexus-ovicula': {
+    id: 'lexus-ovicula',
+    title: 'Lexus Ovicula',
+    subtitle: 'He did what he had to do to get on top. He is not ashamed of any of it.',
+    category: 'character',
+    tags: ['character', 'hydaelyn', 'umbra', 'fury-gaze'],
+    stub: true,
+    todos: ['Full backstory — the rough life referenced', 'Physical appearance', 'Sister (taken by Namazu? — confirm)', 'Full Umbra arc role'],
+    infobox: {
+      title: 'Lexus Ovicula',
+      imageTabs: [{ label: 'Current', src: null, caption: '' }],
+      groups: [
+        { heading: null, fields: [
+          ['Born', '1552'],
+          ['Race', '[TODO]'],
+          ['Combat Style', 'Traps, social manipulation, rogue tactics (creed-style)'],
+        ]},
+        { heading: 'Personal Status', fields: [
+          ['Status', 'Alive'],
+          ['Sister', '[TODO — taken, circumstances unclear]'],
+        ]},
+        { heading: 'Affiliation', fields: [
+          ['Current', '[[Umbra]] (Phantom tier)'],
+          ['Previous', '[[Fury\'s Gaze]] operative'],
+        ]},
+        { heading: 'Occupation', fields: [
+          ['Current', 'Umbra operations — brothels, trafficking, logistics'],
+        ]},
+      ]
+    },
+    sections: [
+      { id: 'overview', heading: null, content: [
+        { type: 'p', text: '**Lexus Ovicula** is an [[Umbra]] Phantom — mid-tier operative. He manages cells, organizes mercenary groups, runs [[Umbra\'s]] brothel and trafficking operations, and oversees sabotage and surveillance. He delivered Garlean schematics to Vangarde that set up the Grimstone mining deal at [[Fury\'s Gaze|Burning Walls]].' },
+        { type: 'p', text: 'He had a rough life and did what he had to do to get on top. He is full of himself for having made it big and not ashamed of anything he\'s done. He defends the awful things he\'s done by saying the world is an awful place. This is not a facade — he actually believes it.' },
+      ]},
+      { id: 'plots', heading: 'Plots', content: [
+        { type: 'subsection', text: 'Fury\'s Gaze Arc' },
+        { type: 'p', text: 'Present at Limsa Lominsa alongside [[Amelia Graves]] operating under a surface company. Connected to [[Oswin Thatcher]] through Umbra\'s shared drug and trafficking network — following Oswin\'s trail in the Umbra arc leads back to Lex.' },
+        { type: 'subsection', text: 'Umbra Arc' },
+        { type: 'p', text: 'Returns as an antagonist alongside [[Cailean Arda]]. The party (the Rose and Her Thorns) were planning to meet with him at one point. Full arc details pending.' },
+      ]},
+    ],
+  },
+
+  'oswin-thatcher': {
+    id: 'oswin-thatcher',
+    title: 'Oswin Thatcher',
+    subtitle: 'A man on the edge. Desperation makes him dangerous.',
+    category: 'character',
+    tags: ['character', 'hydaelyn', 'umbra', 'ul-dah'],
+    stub: false,
+    todos: ['What ultimately happens to Oswin — turned against Umbra, doubled down, or cut loose?'],
+    infobox: {
+      title: 'Oswin Thatcher',
+      imageTabs: [{ label: 'Current', src: null, caption: 'Slicked-back silver-streaked dark hair' }],
+      groups: [
+        { heading: null, fields: [
+          ['Race', "Hyur (Midlander)"],
+          ['Age', 'Mid-to-late 40s'],
+          ['Height', 'Tall'],
+          ['Hair', 'Slicked-back, silver-streaked dark'],
+          ['Eyes', 'Hazel — piercing'],
+          ['Style', 'Fine but practical merchant attire; golden signet ring with family crest'],
+        ]},
+        { heading: 'Personal Status', fields: [
+          ['Status', 'Alive — financially ruined, increasingly desperate'],
+        ]},
+        { heading: 'Affiliation', fields: [
+          ['Current', '[[Umbra]] (indebted, not ranked)'],
+          ['Previous', 'Thatcher & Co. Pharmaceuticals (front — destroyed)'],
+        ]},
+        { heading: 'Occupation', fields: [
+          ['Current', 'Attempting to buy [[The Silver Bazaar]]'],
+          ['Previous', 'Pharmaceutical front operator (Pearl Lane, Ul\'dah)'],
+        ]},
+        { heading: 'Base of Operations', fields: [
+          ['Previous', 'Pearl Lane, Ul\'dah (pharmacy — burned by [[Zekito Silverblood|Zekito]])'],
+        ]},
+      ]
+    },
+    sections: [
+      { id: 'overview', heading: null, content: [
+        { type: 'p', text: '**Oswin Thatcher** is an Ul\'dahn businessman and opportunist who mastered the art of playing both sides. His former business, Thatcher & Co. Pharmaceuticals — a small pharmacy in Pearl Lane — was a front for [[Umbra\'s]] drug distribution network. He profited well but was never truly in control. [[Zekito Silverblood|Zekito]] burned the pharmacy down during his investigation. Officially: a mysterious fire.' },
+        { type: 'p', text: 'Financially ruined, he is now attempting to buy out [[The Silver Bazaar]] with [[Umbra\'s]] backing and turn it into a new hub for moving their goods. Resident Kikipu is refusing to sell. [[Umbra\'s]] patience is thinning. Oswin is desperate — and desperation makes him dangerous.' },
+      ]},
+      { id: 'plots', heading: 'Plots', content: [
+        { type: 'subsection', text: 'Umbra Arc — The Silver Bazaar' },
+        { type: 'p', text: 'Oswin is the ground-level thread Nim and Zek are following. Tracing his network connects to [[Lexus Ovicula|Lex\'s]] brothels and trafficking operations. He is a stepping stone, not the destination — but a desperate one who may take riskier actions as his options narrow. He could be turned against [[Umbra]] in exchange for survival, or he could double down and become a bigger obstacle.' },
+      ]},
+      { id: 'personality', heading: 'Personality', content: [
+        { type: 'table', headers: ['Trait', 'Detail'],
+          rows: [
+            ['Style', 'Charismatic, persuasive, never overtly threatening'],
+            ['Method', 'Negotiator — presents himself as a benefactor rather than a predator'],
+            ['Values', 'Greedy but not reckless. Prefers manipulation over force. Stays just on the right side of the law.'],
+            ['Violence', 'Dislikes it personally. Has no problem hiring people who don\'t.'],
+            ['Current State', 'Desperate. More dangerous than usual.'],
+          ]
+        },
+      ]},
+    ],
+  },
+
+  'joyce-carver': {
+    id: 'joyce-carver',
+    title: 'Joyce Carver',
+    subtitle: 'The Silver Bazaar has a heartbeat. She is most of it.',
+    category: 'character',
+    tags: ['character', 'hydaelyn', 'silver-bazaar'],
+    stub: false,
+    todos: [],
+    infobox: {
+      title: 'Joyce Carver',
+      imageTabs: [{ label: 'Current', src: null, caption: '' }],
+      groups: [
+        { heading: null, fields: [
+          ['Race', '[TODO]'],
+          ['Occupation', 'Herb and spice merchant'],
+          ['Location', '[[The Silver Bazaar]], Western Thanalan'],
+        ]},
+        { heading: 'Personal Status', fields: [
+          ['Status', 'Alive'],
+        ]},
+      ]
+    },
+    sections: [
+      { id: 'overview', heading: null, content: [
+        { type: 'p', text: '**Joyce Carver** is a herb and spice merchant at [[The Silver Bazaar]]. She cultivates many of her wares herself in small pots or sources them from wandering traders. Her stall is modest but smells heavenly — a rare oasis of colour and aroma in the struggling Bazaar.' },
+        { type: 'p', text: 'She is the Bazaar\'s unifying figure: offering food, advice, and the occasional scolding to anyone she cares about. Kind-hearted and generous. Deeply disillusioned with Ul\'dah\'s cutthroat capitalism. She prides herself on the honesty and camaraderie of the Bazaar — and would rather give away a meal than let someone go hungry. Despite the Bazaar\'s decline she clings to hope for its revival, dreaming of the day it regains its former glory. A touch wistful about her own future, often lamenting her lack of romantic prospects and masking it with humor.' },
+      ]},
+    ],
+  },
+
+  'thalric-ironshore': {
+    id: 'thalric-ironshore',
+    title: 'Thalric Ironshore',
+    subtitle: 'He left the fighting behind. He did not leave the people behind.',
+    category: 'character',
+    tags: ['character', 'hydaelyn', 'silver-bazaar'],
+    stub: false,
+    todos: [],
+    infobox: {
+      title: 'Thalric Ironshore',
+      imageTabs: [{ label: 'Current', src: null, caption: 'Leather jerkin, salvager tools' }],
+      groups: [
+        { heading: null, fields: [
+          ['Full Name', 'Thalric Ironshore (formerly Thalric Ironmace)'],
+          ['Race', 'Hyur (Highlander)'],
+          ['Build', 'Broad-shouldered, powerfully built — slower now from age and injury'],
+          ['Hair', 'Dark brown, gray-streaked, short and untidy. Thick silver-streaked beard.'],
+          ['Eyes', 'Gray — deep-set'],
+          ['Scars', 'Jagged scar from right shoulder to chest — ended his fighting days'],
+          ['Style', 'Leather jerkin (patched), heavy muddy boots, salvaging tools on belt'],
+          ['Occupation', 'Salvager and part-time handyman'],
+          ['Location', '[[The Silver Bazaar]], Western Thanalan'],
+        ]},
+        { heading: 'Personal Status', fields: [
+          ['Status', 'Alive'],
+        ]},
+      ]
+    },
+    sections: [
+      { id: 'overview', heading: null, content: [
+        { type: 'p', text: '**Thalric Ironshore** — formerly Thalric Ironmace — is a salvager and handyman at [[The Silver Bazaar]]. The name change came with the retirement from fighting. He scours the shores and ruins around the Bazaar, retrieving and repairing items to sell. Specializes in fixing broken goods — pots, nets, lanterns — and handles odd jobs around the Bazaar when not salvaging.' },
+        { type: 'p', text: 'Pragmatic and stoic. Carries an undercurrent of melancholy from the loss of his old life — rarely speaks of his past. Fiercely loyal to the people of the Bazaar; sees them as his family. While he avoids conflict, he won\'t hesitate to step in if someone is being mistreated. His presence alone is enough to deter most troublemakers.' },
+      ]},
+    ],
+  },
+
   'timeline': {
     id: 'timeline', title: 'Timeline', category: 'meta', tags: [], stub: false, todos: [],
   },
@@ -2180,8 +2865,8 @@ const NAV = [
     items: [
       { id: 'zekito-silverblood', label: 'Zekito Silverblood' },
       { id: 'nimvaei-liraz', label: 'Nimvaei / Liraz Laskaris' },
-      { id: 'mewecho', label: 'Mewecho', stub: true },
-      { id: 'isanshiro', label: 'Isanshiro', stub: true },
+      { id: 'mewecho', label: 'Mewecho Silverblood', stub: true },
+      { id: 'isanshiro', label: 'Isanshiro Silverblood', stub: true },
       { id: 'merlin', label: 'Merlin' },
       { id: 'luvsan', label: 'Luvsan' },
       { id: 'auria-van-varus', label: 'Auria Van Varus' },
@@ -2189,6 +2874,26 @@ const NAV = [
       { id: 'lorelai-lesrekta', label: 'Lorelai Lesrekta' },
       { id: 'hapus-anrhefn', label: 'Hapus Anrhefn' },
       { id: 'amelia-graves', label: 'Amelia Graves' },
+    ]
+  },
+  {
+    id: 'party', label: 'The Rose & Her Thorns', icon: '🌹', open: false,
+    items: [
+      { id: 'kiku-kha', label: 'Kiku Kha', stub: true },
+      { id: 'sol-farseeker', label: 'Solemnic Farseeker', stub: true },
+      { id: 'maya-takagi', label: 'Maya Takagi', stub: true },
+      { id: 'hwaryun-tzuyu', label: 'Hwaryun Tzuyu', stub: true },
+      { id: 'ordette-duflaya', label: "Ordette Du'Flaya", stub: true },
+    ]
+  },
+  {
+    id: 'umbra-ops', label: "Auria's Six", icon: '◈', open: false,
+    items: [
+      { id: 'cailean-arda', label: 'Cailean Arda', stub: true },
+      { id: 'lexus-ovicula', label: 'Lexus Ovicula', stub: true },
+      { id: 'oswin-thatcher', label: 'Oswin Thatcher' },
+      { id: 'joyce-carver', label: 'Joyce Carver' },
+      { id: 'thalric-ironshore', label: 'Thalric Ironshore' },
     ]
   },
   {
@@ -2242,7 +2947,9 @@ const LINK_MAP = {
   'Mores': 'mores-gwydion',
   'Luvsan': 'luvsan',
   'Merlin': 'merlin',
+  'Mewecho Silverblood': 'mewecho',
   'Mewecho': 'mewecho',
+  'Isanshiro Silverblood': 'isanshiro',
   'Isanshiro': 'isanshiro',
   'Lorelai Lesrekta': 'lorelai-lesrekta',
   'Lorelai': 'lorelai-lesrekta',
@@ -2270,7 +2977,27 @@ const LINK_MAP = {
   'Lunair Blackwind': 'zekito-silverblood',
   'Gerel Kha': 'zekito-silverblood',
   'The Bracelet': 'zekito-silverblood',
-  'Cailean Arda': 'umbra',
+  'Cailean Arda': 'cailean-arda',
+  'Cailean': 'cailean-arda',
+  'Lexus Ovicula': 'lexus-ovicula',
+  'Lex': 'lexus-ovicula',
+  'Oswin Thatcher': 'oswin-thatcher',
+  'Oswin': 'oswin-thatcher',
+  'Joyce Carver': 'joyce-carver',
+  'Joyce': 'joyce-carver',
+  'Thalric Ironshore': 'thalric-ironshore',
+  'Thalric': 'thalric-ironshore',
+  'Kiku Kha': 'kiku-kha',
+  'Kiku': 'kiku-kha',
+  'Solemnic Farseeker': 'sol-farseeker',
+  'Sol': 'sol-farseeker',
+  'Maya Takagi': 'maya-takagi',
+  'Maya': 'maya-takagi',
+  'Hwaryun Tzuyu': 'hwaryun-tzuyu',
+  'Hwaryun': 'hwaryun-tzuyu',
+  'Ryun': 'hwaryun-tzuyu',
+  "Ordette Du'Flaya": 'ordette-duflaya',
+  'Ordette': 'ordette-duflaya',
   'Lexus Ovicula': 'umbra',
   'Blackguard': 'lambs-of-dalamud',
   'Lunar Rose Academy': 'hydaelyn',
@@ -2576,6 +3303,7 @@ function HomePage({ navigate }) {
     { id: 'timeline', icon: '📜', title: 'World Timeline', desc: 'From 960 to the Final Days.' },
     { id: 'erinn', icon: '🌿', title: 'Erinn', desc: 'The source world. Where the story begins.' },
     { id: 'fury-gaze', icon: '🔬', title: "Fury's Gaze", desc: "Auria's facility. 25 rooms. Funded by Umbra." },
+    { id: 'kiku-kha', icon: '🌹', title: 'The Rose & Her Thorns', desc: 'Kiku, Sol, Maya, Ryun, Ordette — opposing Auria from the outside.' },
     { id: 'aether', icon: '✦', title: 'Aether', desc: 'Six aspects. Two polarities. One system.' },
     { id: 'umbra', icon: '◉', title: 'Umbra', desc: 'No throne. No flag. Just strings.' },
   ];
