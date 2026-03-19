@@ -479,8 +479,8 @@ a:hover { color: var(--silver-3); text-decoration: underline; }
 /* ── INFOBOX ──────────────────────────────────────────── */
 
 .infobox {
-  width: 240px;
-  min-width: 240px;
+  width: 260px;
+  min-width: 260px;
   background: var(--bg-card);
   border: 1px solid var(--border-2);
   border-top: 3px solid var(--red-2);
@@ -500,6 +500,74 @@ a:hover { color: var(--silver-3); text-decoration: underline; }
   border-bottom: 1px solid var(--border);
 }
 
+.infobox-image-tabs {
+  display: flex;
+  border-bottom: 1px solid var(--border);
+}
+
+.infobox-image-tab {
+  flex: 1;
+  padding: 5px 4px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: var(--text-3);
+  cursor: pointer;
+  border-right: 1px solid var(--border);
+  transition: all 0.15s;
+  user-select: none;
+}
+
+.infobox-image-tab:last-child { border-right: none; }
+.infobox-image-tab:hover { color: var(--text-2); background: var(--bg-hover); }
+.infobox-image-tab.active { color: var(--silver-2); background: var(--red-muted); border-bottom: 2px solid var(--red-2); }
+
+.infobox-image-area {
+  background: var(--bg-3);
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  border-bottom: 1px solid var(--border);
+  gap: 6px;
+}
+
+.infobox-image-placeholder {
+  font-size: 11px;
+  color: var(--text-3);
+  font-style: italic;
+  text-align: center;
+}
+
+.infobox-image-caption {
+  font-size: 10px;
+  color: var(--text-3);
+  text-align: center;
+}
+
+.infobox-image-area img {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+}
+
+.infobox-group-header {
+  padding: 5px 8px 4px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--red-2);
+  background: var(--red-muted);
+  border-bottom: 1px solid var(--border-red);
+  border-top: 1px solid var(--border-red);
+}
+
 .infobox-row {
   display: grid;
   grid-template-columns: 90px 1fr;
@@ -516,15 +584,94 @@ a:hover { color: var(--silver-3); text-decoration: underline; }
   letter-spacing: 0.05em;
   background: var(--bg-3);
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  padding-top: 8px;
 }
 
 .infobox-value {
   padding: 6px 8px;
   color: var(--text);
   font-size: 12px;
-  line-height: 1.4;
+  line-height: 1.5;
 }
+
+/* ── TABLE OF CONTENTS ────────────────────────────────── */
+
+.toc {
+  background: var(--bg-card);
+  border: 1px solid var(--border-2);
+  border-left: 3px solid var(--red);
+  border-radius: 0 4px 4px 0;
+  padding: 12px 14px;
+  margin-bottom: 24px;
+  display: inline-block;
+  min-width: 220px;
+  max-width: 340px;
+}
+
+.toc-title {
+  font-family: 'Cinzel', serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--silver-2);
+  margin-bottom: 8px;
+}
+
+.toc-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.toc-item {
+  font-family: 'Outfit', sans-serif;
+  font-size: 12px;
+}
+
+.toc-item a {
+  color: var(--silver);
+  cursor: pointer;
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+  transition: color 0.15s;
+}
+
+.toc-item a:hover { color: var(--silver-3); text-decoration: none; }
+
+.toc-num {
+  color: var(--text-3);
+  font-size: 11px;
+  flex-shrink: 0;
+  width: 20px;
+}
+
+.toc-sublist {
+  list-style: none;
+  margin-top: 2px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.toc-subitem {
+  font-family: 'Outfit', sans-serif;
+  font-size: 11px;
+}
+
+.toc-subitem a {
+  color: var(--text-2);
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  transition: color 0.15s;
+}
+
+.toc-subitem a:hover { color: var(--silver-2); text-decoration: none; }
 
 /* ── TABLES ───────────────────────────────────────────── */
 
@@ -934,38 +1081,76 @@ const ARTICLES = {
       'Full aftermath of killing his mother — how it reshaped him',
       'How Zekito ended up in Hydaelyn — world transition cause',
       'Full Hydaelyn arc beyond academy enrolment',
+      'Oswin — who is Oswin? Full details pending.',
     ],
     infobox: {
       title: 'Zekito Silverblood',
-      fields: [
-        ['Also Known As', 'Zero (childhood), Zek'],
-        ['Race', "Miqo'te / Fomorian half-breed"],
-        ['True Age', '~200 years (former demigod)'],
-        ['Current Power', '~20% of original'],
-        ['Origin', 'Erinn — Tir Chonaill, Uladh'],
-        ['Location', 'Hydaelyn — Lunar Rose Academy'],
-        ['Affiliations', 'Audacia, The Aces, Blood Knights (former)'],
-        ['Created By', 'John (ZeroTheScyther)'],
+      imageTabs: [
+        { label: 'Child', src: null, caption: 'Tir Chonaill, age ~4–10' },
+        { label: 'Teen', src: null, caption: 'Erinn, age ~14–17' },
+        { label: 'Young Adult', src: null, caption: 'Lunar Rose era, Eorzea' },
+        { label: 'Current', src: null, caption: 'Post-Lunar Rose' },
+      ],
+      groups: [
+        { heading: null, fields: [
+          ['Titles', "Son of the Silver King; Captain of the Fenrir Unit"],
+          ['Also Known As', 'Zek'],
+          ['Race', "Miqo'te / Fomorian half-breed"],
+          ['True Age', '~200 years (former demigod; ~20% original power)'],
+          ['Height', "186 cm (6\'1\")" ],
+          ['Weight', '75 kg (165 lbs)'],
+          ['Job', 'Elemental Slayer'],
+          ['Created By', 'John (ZeroTheScyther)'],
+        ]},
+        { heading: 'Personal Status', fields: [
+          ['Status', 'Alive — soul dissonance ongoing'],
+          ['Relatives', 'Isanshiro (father), Mewecho (twin sister), Unnamed Fomorian mother (deceased)'],
+        ]},
+        { heading: 'Affiliation', fields: [
+          ['Current', "Oswin\'s Ship"],
+          ['Previous', 'Audacia, Blood Knights (Fenrir Unit), Lunar Rose Academy'],
+        ]},
+        { heading: 'Occupation', fields: [
+          ['Current', 'Adventurer'],
+          ['Previous', 'Street Rat → Pit Fighter → Adventurer → Blood Knights Captain (Fenrir Unit) → Audacia Councillor → Student (Lunar Rose Academy)'],
+        ]},
+        { heading: 'Base of Operations', fields: [
+          ['Current', "Oswin\'s Ship"],
+          ['Previous', "Audacia Guild Hall → Blood Knights Guild Hall → Lunar Rose Academy → Ishgard apartment → The Silver Bazaar"],
+        ]},
       ]
     },
     sections: [
       { id: 'overview', heading: null, content: [
-        { type: 'p', text: '**Zekito Silverblood** — also known as **Zero** and **Zek** — is the central protagonist of Fantasy Tales. Half-[[Fomorian Blood|Fomorian]], half-Miqo\'te, he is the son of [[Isanshiro]] (the Silver King) and twin brother of [[Mewecho]]. Born into a kingdom that burned before he could remember it, he has spent two centuries wandering [[Erinn]] and now [[Hydaelyn]], defying the nature of what he is.' },
+        { type: 'p', text: '**Zekito Silverblood** — also known as **Zek** — is the central protagonist of Fantasy Tales. Half-[[Fomorian Blood|Fomorian]], half-Miqo\'te, he is the son of [[Isanshiro]] (the Silver King) and twin brother of [[Mewecho]]. Born into a kingdom that burned before he could remember it, he has spent two centuries wandering [[Erinn]] and now [[Hydaelyn]], defying the nature of what he is.' },
         { type: 'p', text: 'He is tall, muscular, silver-haired, and red-eyed — an immediately striking presence with cat ears that catch far more than he admits to, and a tail he usually keeps wrapped under his shirt. Despite his appearance, he is outgoing, brash, and audacious. He is also quietly terrified of losing anyone he lets close, and has been running from something for two hundred years.' },
       ]},
       { id: 'appearance', heading: 'Appearance', content: [
         { type: 'table', headers: ['Attribute', 'Detail'],
           rows: [
-            ['Hair', 'Long, messy, silver-gray (arrived dark in Eorzea; turned white within 3 years)'],
+            ['Hair', 'Silver-white, short and messy in current form. Arrived in Eorzea with dark hair — turned white within 3 years. During the Umbra arc, Nimvaei cut and dyed it black as a disguise.'],
             ['Eyes', 'Red — burning and intense, the gaze of a predator watching prey'],
-            ['Height / Weight', '186 cm (6\'1") / 75 kg (165 lbs)'],
+            ['Height / Weight', "186 cm (6\'1\") / 75 kg (165 lbs)"],
             ['Build', 'Tall, muscular'],
-            ['Ears / Tail', 'Cat ears (used to eavesdrop; he pretends not to notice). Tail usually hidden under shirt.'],
+            ['Ears', 'Cat ears — he hears far more than he admits to'],
+            ['Tail', 'White and fluffy; usually wrapped under his shirt in company'],
             ['Scars', 'Numerous — torso, arms, legs'],
-            ['Style', 'Mix of classy and urban; signature piece is a coat. Black and red.'],
+            ['Signature Colors', 'Red dominant, with black'],
           ]
         },
-        { type: 'p', text: 'His cat ears give him an edge he rarely acknowledges — he hears far more than he lets on. The tail stays wrapped in most company; one of the few concessions he makes to blending in.' },
+        { type: 'subsection', text: 'Outfit by Arc' },
+        { type: 'table', headers: ['Period', 'Outfit'],
+          rows: [
+            ['Early Eorzea', 'Black tank top, dark trousers, fingerless gloves. Dark hair.'],
+            ['Lunar Rose Uniform', 'Teal blue collared shirt with gold pin detailing, white trousers, white shoes.'],
+            ['Lunar Rose Going Out', 'Heavy dark grey long coat with fur-trimmed collar, multiple buckle straps, platform boots, green choker.'],
+            ['Combat', 'Black with gold chain detailing, armoured legs, long black coat.'],
+            ['Date / Off Duty', 'White dress shirt, red vest, black tie.'],
+            ['Cold Weather', 'Brown leather coat with fur trim.'],
+            ['Umbra Disguise', 'Hair cut and dyed black by Nimvaei. Dark ears. Stripped-back dark clothes.'],
+            ['Current Signature', 'Bold red long coat with fur-trimmed shoulders. Red dominant.'],
+          ]
+        },
       ]},
       { id: 'personality', heading: 'Personality', content: [
         { type: 'p', text: 'Despite his appearance, Zekito is outgoing. Outspoken, brash, and audacious, loyal to a fault. He leads with confidence and can read a room, hold a conversation, and project ease even in unfamiliar company. But the ease is a performance. Beneath it: quick anger held in check by a lifetime of practice; a terror of losing people that drives him to put everyone else before himself; and an old bone-deep loneliness that no amount of company has ever fully touched.' },
@@ -981,46 +1166,76 @@ const ARTICLES = {
             ['Tic', 'Sighing'],
             ['Cope', 'Getting dead drunk'],
             ['Rage Trigger', 'His sister being hurt'],
-            ['Habit', 'Always carries a notebook; records research, investigation notes, and field observations'],
-            ['Likes', 'Whiskey, electric guitars, cellos, sleeping under big trees, fishing'],
+            ['Habit', 'Always carries a notebook; records research, investigation notes, field observations'],
+            ['Likes', 'Whiskey, electric guitars, cellos, sleeping under big trees, fishing, cooking'],
             ['Dislikes', 'Elitists, smartasses, spicy food, being ignored'],
           ]
         },
-        { type: 'p', text: '**Fighting style note:** Zekito fights barehanded in 99% of situations and refuses to use a weapon. When asked why, he said simply: *"It\'s harder to take a life that way."* A weapon creates distance between intention and consequence. He doesn\'t want that distance.' },
+        { type: 'p', text: '**Fighting style note:** Zekito fights barehanded in 99% of situations and refuses to use a weapon. When asked why, he said simply: *"It\'s harder to take a life that way."*' },
       ]},
-      { id: 'abilities', heading: 'Abilities & Power', content: [
-        { type: 'subsection', text: 'Fomorian Blood (Erinn)' },
-        { type: 'p', text: 'Zekito carries powerful [[Fomorian Blood]] from his mother. This grants immense physical capability and magic potential at the cost of control. When pushed to extremes, he enters a feral berserk state — losing all reason, attacking anyone nearby, friend or foe. His [[The Bracelet|bracelet]] (enhanced by [[Merlin]]) suppresses this. The blood is always there, always waiting.' },
-        { type: 'p', text: 'Beyond the berserk state is something worse — a full surrender to his voidsent nature he has spent 200 years running from. He is aware of this possibility. It is why he has secretly been training [[Nimvaei / Liraz Laskaris|Nimvaei]] to kill him if he ever loses control.' },
-        { type: 'subsection', text: 'Magic (Erinn)' },
-        { type: 'p', text: 'Trained by [[Merlin]] of [[The Aces]] for four years. [[Merlin]] taught him **Snap Cast** (chargeable spells fire instantly without casting time — this is the mechanic behind his instant Lightning Rod; the finger snap is the trigger) and **Spellwalk** (spells can be cast while moving). Both are considered impossible by Eorzean mage standards. He arrived treating them as ordinary.' },
-        { type: 'p', text: 'His custom knuckles — forged by [[Merlin]] — let him channel high-level magic without a focus. One of very few in [[Erinn]] capable of this.' },
-        { type: 'subsection', text: 'Eorzea — Spell Sheet' },
-        { type: 'table', headers: ['Spell / Ability', 'Description'],
+      { id: 'history', heading: 'History', subsections: ['Before Memory', 'The Road and the Pit', 'Found Family', 'Audacia', 'The Aces & Merlin', 'The Zealots', 'Arrival in Hydaelyn'], content: [
+        { type: 'subsection', text: 'Before Memory (Age ~4)' },
+        { type: 'p', text: 'Born in [[Erinn]] to [[Isanshiro]] (the Silver King) and a Fomorian mother. Twin to [[Mewecho]]. At age 4, [[Isanshiro]]\'s castle was besieged by the Knights of Light who opposed the union of man and Fomor. To protect the twins, Isanshiro placed memory seals on both children. Zekito was sent to [[Tir Chonaill]] as a farm boy. Mewecho was sent to the cold northern [[Vales]] — alone.' },
+        { type: 'subsection', text: 'The Road and the Pit (Age 10–17)' },
+        { type: 'p', text: 'At age 10, his Fomorian blood overpowered the seal. Months of hallucinations ended with him attempting to gut his adoptive father — he was banished. A year as a street rat in [[Dunbarton]], then chased into [[Dugald Forest]] where a massive adventurer punched a bear flat and handed him bread and knuckles: *"If you want to thank me, grow strong. Survive and bring me back my knuckles."* He never found the man. He kept the knuckles. Four years wandering Erinn. Three years in an arena — youngest fighter ever, losing repeatedly then winning. Never took the Champion title. Earned a name.' },
+        { type: 'subsection', text: 'Found Family (Age ~17)' },
+        { type: 'p', text: 'Returning to [[Tir Chonaill]], he met Jeff — naive, endlessly optimistic, impossible to shake — who introduced him to Odjin, Yuias, and Ajaraka. These five became family. The found family ended at the bottom of a crypt: a vampire count struck down the party, Zekito went feral and nearly killed the people he\'d fought to protect. The party dissolved. Jeff was last — and eventually he too vanished.' },
+        { type: 'subsection', text: 'Audacia' },
+        { type: 'p', text: 'Years later, he joined [[Audacia]] guild, eventually becoming a Councillor. During the guild conflict with rival guild [[Nixia]], he and officer Nina went to negotiate — and met the Nixia officer who would turn out to be his twin sister [[Mewecho]], though neither of them knew it yet. The truth came on a joint mission through Iria: a dragon, [[Mewecho]]\'s berserk rage felling the beast — and Zekito recognizing her bracelet. He also served as Captain of the Fenrir Unit within the Blood Knights during this period.' },
+        { type: 'subsection', text: 'The Aces & Merlin' },
+        { type: 'p', text: 'The twins tracked down [[The Aces]] and [[Merlin]], who tested them and enhanced their bracelets. [[Mewecho]] returned to [[Audacia]]. Zekito spent four years travelling with the Aces under [[Merlin]]\'s mentorship — receiving Snap Cast, Spellwalk, and his custom knuckles.' },
+        { type: 'subsection', text: 'The Zealots' },
+        { type: 'p', text: 'He followed a lead to religious zealots in [[Iria]], stopping at [[Belvast]] first — finding [[Mewecho]] and their father [[Isanshiro]] there, unexpectedly. A day of questioning. No answers about his mother. He followed the trail to the zealot hideout and found his mother: decades of suffering and forced aetherial extraction had turned her into a weapon. There was nothing left to reach. He made the only choice he could. **He killed his mother.**' },
+        { type: 'subsection', text: 'Arrival in Hydaelyn' },
+        { type: 'p', text: 'How Zekito arrived in [[Hydaelyn]] is not yet documented. He arrived stripped of [[Fomorian Blood|Fomorian power]], reduced to an ordinary sickly Miqo\'te body, hair still dark — the body hadn\'t yet begun reflecting what his soul actually is. Within three years it turned white. Odd jobs in Ul\'dah, training with the Pugilist Guild. Mage Gerel Kha diagnosed his soul dissonance and directed him to [[Lunar Rose Academy]]. Lunar Rose is where the plot begins.' },
+      ]},
+      { id: 'plots', heading: 'Plots', subsections: ['Lunar Rose Arc', "Fury\'s Gaze Arc", 'Runes of Chimera', 'Umbra Arc'], content: [
+        { type: 'subsection', text: 'Lunar Rose Arc' },
+        { type: 'p', text: 'Zekito enrolled at [[Lunar Rose Academy]] posing as a student while searching for treatment for his soul dissonance. He met [[Nimvaei / Liraz Laskaris|Nimvaei and Liraz]] here. Concurrently he investigated the Ul\'dah disappearances and the [[Lambs of Dalamud]]. During this arc he and Nimvaei were ambushed by a Lamb group; he was impaled by the Blackguard voidsent. He revealed to Nimvaei that he is not from Hydaelyn and is a half-Fomor — the conversation that changed the shape of what they were to each other.' },
+        { type: 'subsection', text: "Fury\'s Gaze Arc" },
+        { type: 'p', text: 'Zekito was captured by [[Fury\'s Gaze|Auria\'s facility]]. His bracelet markings were removed; his condition deteriorated to psychosis and animalistic behaviour. Compound Psi was administered on [[Auria Van Varus|Auria]]\'s orders. He escaped containment and slaughtered his way to the 1F elevator before being retrieved by [[Lorelai Lesrekta]]. No bond recorded. No rung. **No status recorded.** [[Cailean Arda]] was watching throughout as [[Umbra]]\'s embedded observer.' },
+        { type: 'subsection', text: 'Runes of Chimera' },
+        { type: 'p', text: 'Zekito and [[Nimvaei / Liraz Laskaris|Nimvaei]] became entangled with [[Mores Gwydion]] (posing as Orraux Clauvier). Zekito caught the scent of Mores\' intent early and was immobilised to prevent interference. See: [[Runes of Chimera]] for the full arc.' },
+        { type: 'subsection', text: 'Umbra Arc' },
+        { type: 'p', text: 'During the Umbra arc, [[Nimvaei / Liraz Laskaris|Nimvaei]] cut and dyed his hair black so he could move without being recognized. He told her at the start of this arc — after teaching her Smash — that he has been secretly training her to kill him if he ever loses control. [[Cailean Arda]] and [[Lexus Ovicula]] act as antagonists on [[Umbra]]\'s orders. Full arc details pending.' },
+      ]},
+      { id: 'equipment', heading: 'Equipment', content: [
+        { type: 'subsection', text: 'The Bracelet' },
+        { type: 'p', text: 'A mythril bracelet (Auracite in Eorzea terms). Crafted and enhanced by [[Merlin]]. Suppresses [[Fomorian Blood|Fomorian hunger]] by passively amassing ambient aether; attuned to [[Mewecho]]\'s twin bracelet so the siblings can never truly lose each other. Contains 8/10 of his original demigod soul. His plan to return to [[Erinn]]: breach the Crystal Tower, amplify the bracelet\'s attunement until it tears open a portal to [[Mewecho]]\'s bracelet.' },
+        { type: 'subsection', text: 'The Knuckles' },
+        { type: 'p', text: 'He has carried knuckles since age 11, given to him by the adventurer in [[Dugald Forest]]. When he left [[The Aces]], [[Merlin]] gifted him a custom pair: identical in shape but built to channel high-level magic without a focus. He fights barehanded by default; the knuckles serve as a conduit for his spellwork.' },
+      ]},
+      { id: 'powers', heading: 'Powers & Abilities', subsections: ['Fomorian Blood', 'Snap Cast & Spellwalk', 'Spell List', 'Aetherial Alignment'], content: [
+        { type: 'subsection', text: 'Fomorian Blood' },
+        { type: 'p', text: 'Zekito carries powerful [[Fomorian Blood]] from his mother. Grants immense physical capability and magic potential at the cost of control. In extremis he enters a feral berserk state. Beyond that is a full surrender to his voidsent nature he has spent 200 years running from — the reason he has secretly been training [[Nimvaei / Liraz Laskaris|Nimvaei]] to kill him if he loses control.' },
+        { type: 'subsection', text: 'Snap Cast & Spellwalk' },
+        { type: 'p', text: 'Taught by [[Merlin]]. **Snap Cast:** Chargeable spells fire instantly — the finger snap is the trigger. **Spellwalk:** Spells can be cast while moving. Both considered impossible by Eorzean mage standards. He arrived treating them as completely ordinary.' },
+        { type: 'subsection', text: 'Spell List' },
+        { type: 'table', headers: ['Spell', 'Description'],
           rows: [
             ['Fireball', 'Gathers fire aether, hurls at enemy. Up to five in quick succession.'],
-            ['Flame Torrent', 'Stomps foot; torrent of fire surrounds briefly. Defense and concealment.'],
+            ['Flame Torrent', 'Stomps foot; torrent of fire surrounds briefly.'],
             ['Lightning Rod (Snap Cast)', 'Stores a charge, deploys on finger snap. Instant bolt to target.'],
             ['Lightning Rod (Full Cast)', 'Massive levin release. Cannot move while channeling.'],
             ['Ice Dagger / Shards', 'Throws an ice dagger; variant explodes into shrapnel.'],
-            ['Ice Wall / Spikes', 'Raises a wall for cover, or freezes ground and springs ice spikes upward.'],
+            ['Ice Wall / Spikes', 'Wall for cover, or ice spikes from the ground.'],
             ['Wind Blast', 'Deflects projectiles and people.'],
-            ["Wind's Razor", 'Vibrating wind strip around hands — chainsaw-like effect.'],
-            ["Titan's Fists", 'Rock-hard gauntlets increase punching power.'],
+            ["Wind\'s Razor", 'Vibrating wind strip around hands — chainsaw-like.'],
+            ["Titan\'s Fists", 'Rock-hard gauntlets increase punching power.'],
             ['Barrier', 'Flat aetherial barriers. Usable as platforms. Up to 5 at once.'],
-            ['Mana Ward / Shield', 'Ward: absorbs impact and redirects to ground. Shield: sustained absorption.'],
+            ['Mana Ward / Shield', 'Ward: redirects impact to ground. Shield: sustained absorption.'],
             ['Tri-Bind', 'Aetherial chains from ground or self to bind enemies.'],
             ['Sense Dulling / Heightening', 'Via direct contact: suppresses or amplifies target\'s senses.'],
-            ['Clach (Rock Armor)', 'Rips rock shards from ground, fashions into body armor.'],
-            ['Voice Throw / Change', 'Projects voice to another location, or modulates voice to impersonate.'],
-            ['Sidhe / Fairy Dash', 'Compressed wind blasts for near-teleportation speed. Max two uses. [Wind Attunement]'],
-            ["Void's Hunger", 'Absorbs aether from any touched object or creature. Fuels spells, heals. Overly potent sources risk body overload. This is his Fomorian nature refined — not a learned technique.'],
-            ['Thunder Serpent', 'Temporarily converts body into pure lightning. Instant only — longer risks dispersal.'],
-            ['Xceed (LB2)', 'Channels levin through every nerve. 11 seconds of supersonic speed and destructive force. Body collapses when it ends.'],
-            ['Meteor (LB3)', 'His third Limit Break. Invented by [[Merlin]]. Most destructive spell in his arsenal. [Full mechanics TBD]'],
+            ['Clach (Rock Armor)', 'Rips rock shards from ground, fashions into armor.'],
+            ['Voice Throw / Change', 'Projects voice elsewhere, or modulates it to impersonate.'],
+            ['Sidhe / Fairy Dash', 'Near-teleportation speed via wind blasts. Max two consecutive uses. [Wind Attunement]'],
+            ["Void\'s Hunger", 'Absorbs aether from any touched object or creature. Fuels spells, heals. Fomorian nature refined — not a learned technique.'],
+            ['Thunder Serpent', 'Temporarily converts body into pure lightning. Instant only.'],
+            ['Xceed (LB2)', '11 seconds of supersonic speed and destructive force. Body collapses when it ends.'],
+            ['Meteor (LB3)', 'Third Limit Break. Invented by [[Merlin]]. Most destructive spell in his arsenal. [Full mechanics TBD]'],
           ]
         },
-        { type: 'subsection', text: 'Aetherial Alignment (Eorzea)' },
+        { type: 'subsection', text: 'Aetherial Alignment' },
         { type: 'table', headers: ['Element', 'Affinity', 'Notes'],
           rows: [
             ['Levin', '26%', 'Dominant — natural attunement. Lightning resistance.'],
@@ -1028,43 +1243,12 @@ const ARTICLES = {
             ['Water', '10%', 'Weakest — Lightning boils Water (diametric opposition).'],
           ]
         },
-        { type: 'p', text: '**Passives:** Levin Attunement (natural lightning resistance, easier levin casting). Aethersense (perceives aether flow, detects spellcasting, identifies individuals by aetherial signature — in dense aether, causes nausea; Primal-level aether can be physically incapacitating). Snap Cast and Spellwalk as described above.' },
-      ]},
-      { id: 'bracelet', heading: 'The Bracelet', content: [
-        { type: 'p', text: 'A mythril bracelet (Auracite in Eorzea terms). Crafted by [[Merlin]], later enhanced by him. Two functions: it suppresses [[Fomorian Blood|Fomorian hunger]] by passively amassing ambient aether; and it is attuned to [[Mewecho]]\'s twin bracelet, meaning the siblings can never truly lose each other.' },
-        { type: 'p', text: 'His soul as a demigod was too large to fit a mortal body. Only 1/10 transferred into his Eorzean body. The remaining 9/10 is stored within the bracelet. After [[Lunair Blackwind]]\'s procedure, this became 2/10 in body, 8/10 in bracelet.' },
-        { type: 'p', text: '**His plan to return to [[Erinn]]:** breach the Crystal Tower, use it as a massive aetherial battery, amplify the bracelet\'s attunement until it tears open a portal to [[Mewecho]]\'s bracelet — and through it, to Erinn.' },
-      ]},
-      { id: 'history', heading: 'History', content: [
-        { type: 'subsection', text: 'Arc 0 — Before Memory' },
-        { type: 'p', text: 'Born in [[Erinn]] to [[Isanshiro]] (the Silver King) and a Fomorian mother. Twin to [[Mewecho]]. At age 4, [[Isanshiro]]\'s castle was besieged by the [[Knights of Light|Knights of Light]] who opposed the union of man and Fomor. To protect the twins, Isanshiro placed memory seals on both children and had them escorted to different parts of Erinn. Zekito was sent to [[Tir Chonaill]] as a farm boy. Mewecho was sent to the cold northern [[Vales]] — alone.' },
-        { type: 'subsection', text: 'Arc 1 — The Road and the Pit' },
-        { type: 'p', text: 'At age 10, his Fomorian blood overpowered the seal. Months of hallucinations culminated in him attempting to gut his adoptive father — he was banished. A year as a street rat in [[Dunbarton]], then chased into [[Dugald Forest]] where a massive adventurer punched a bear flat and handed him bread and a pair of knuckles: *"If you want to thank me, grow strong. Survive and bring me back my knuckles."* He never found the man. He kept the knuckles.' },
-        { type: 'p', text: 'Four years wandering Erinn, doing odd jobs. Three years in an arena — the youngest fighter ever, losing repeatedly before starting to win. He never took the Champion title. He earned something harder to quantify: a name.' },
-        { type: 'subsection', text: 'Arc 2 — Found Family' },
-        { type: 'p', text: 'Returning to [[Tir Chonaill]], he met [[Jeff]] — naive, endlessly optimistic, impossible to shake. Jeff introduced him to [[Odjin]], [[Yuias]], and [[Ajaraka]]. These five became family. Odjin taught him magic. Yuias taught him to read and write. Ajaraka nagged him about diet. The found family ended at the bottom of a crypt: a vampire count struck down the party, Zekito went feral and nearly killed the people he\'d fought to protect. The party dissolved. One by one they faded. Jeff was last — and eventually he too vanished.' },
-        { type: 'subsection', text: 'Arc 3 — Audacia' },
-        { type: 'p', text: 'Years later, he joined [[Audacia]] guild. His honest, confident nature earned unexpected respect. When members began leaving for rival guild [[Nixia]], he and officer [[Nina]] went to negotiate — and met the Nixia officer who would turn out to be his twin sister [[Mewecho]], though neither of them knew it yet. The truth came later: a joint mission through Iria, a dragon, [[Mewecho]]\'s berserk rage felling the beast — and Zekito recognizing her bracelet.' },
-        { type: 'subsection', text: 'Arc 4 — The Aces & Merlin' },
-        { type: 'p', text: 'The twins tracked down [[The Aces]] and [[Merlin]], who tested them and enhanced their bracelets. [[Mewecho]] returned to [[Audacia]]. Zekito spent four years travelling with the Aces under [[Merlin]]\'s mentorship — receiving Snap Cast, Spellwalk, and his custom knuckles.' },
-        { type: 'subsection', text: 'Arc 5 — The Zealots' },
-        { type: 'p', text: 'He followed a lead to religious zealots in [[Iria]], stopping at [[Belvast]] first — where he found [[Mewecho]] and their father [[Isanshiro]], unexpectedly. A day of questioning. No answers about his mother. He followed the trail to the zealot hideout and found his mother there: decades of suffering and forced aetherial extraction had turned her into something barely recognizable. A weapon. There was nothing left to reach. He made the only choice he could. **He killed his mother.**' },
-        { type: 'subsection', text: 'Arc 6 — Lunar Rose (Hydaelyn)' },
-        { type: 'p', text: 'How Zekito arrived in [[Hydaelyn]] is not yet documented. He arrived naked, stripped of [[Fomorian Blood|Fomorian power]], reduced to an ordinary sickly Miqo\'te body. Odd jobs in [[Ul\'dah]], training with the Pugilist Guild, the slow realization this body was failing. Mage [[Gerel Kha]] diagnosed his soul dissonance and directed him to [[Lunar Rose Academy]]. He enrolled there — posing as a student while searching for someone who could treat his condition — and met [[Nimvaei / Liraz Laskaris|Nimvaei and Liraz]].' },
-        { type: 'subsection', text: 'Arc 7 — Fury\'s Gaze' },
-        { type: 'p', text: 'Zekito was captured by [[Fury\'s Gaze|Auria\'s facility]]. His bracelet markings were removed; his condition deteriorated to psychosis, delirium, and animalistic behaviour. Compound Psi was administered on [[Auria Van Varus|Auria]]\'s orders. He escaped containment and slaughtered his way to the 1F elevator before being retrieved by [[Lorelai Lesrekta]]. No bond recorded. No rung. **No status recorded.** He escaped before they could finish determining what he was. [[Cailean Arda]] was watching throughout as [[Umbra]]\'s embedded observer.' },
       ]},
       { id: 'relationships', heading: 'Relationships', content: [
-        { type: 'p', text: '**[[Nimvaei / Liraz Laskaris|Nimvaei / Liraz]]:** Partner, best friend, eventual wife. Teacher/student energy that doesn\'t feel unequal. Humor flows both ways. The relationship feels long-established — no performance for each other. He has been secretly training her to kill him if he loses control. He told her at the start of the [[The Umbra Arc|Umbra arc]], after teaching her Smash. The training he framed as being about her freedom was always also about this.' },
-        { type: 'p', text: '**[[Mewecho]]:** Twin sister. They found each other without knowing it — he negotiated with her across a guild conflict for years before recognizing her bracelet. Once they know, they become inseparable. Her bracelet and his are attuned; he can always find her.' },
-        { type: 'p', text: '**[[Merlin]]:** Mentor. Four years of genuine teaching. Merlin gifted him the knuckles and the techniques that made him uniquely capable in Eorzea. The nature of what Merlin actually is remains open.' },
-      ]},
-      { id: 'breaking-points', heading: 'Breaking Points', content: [
-        { type: 'ul', items: [
-          'Almost killing his friends during the vampire count encounter',
-          'Killing his mother at the zealot hideout',
-          'His time at [[Fury\'s Gaze]] — what [[Auria Van Varus|Auria\'s]] facility did to him',
-        ]},
+        { type: 'p', text: '**[[Nimvaei / Liraz Laskaris|Nimvaei / Liraz]]:** Partner, best friend, eventual wife. Teacher/student energy that does not feel unequal. Humor flows both ways. He has been secretly training her to kill him if he loses control — and told her so at the start of the Umbra arc, after teaching her Smash.' },
+        { type: 'p', text: '**[[Mewecho]]:** Twin sister. They found each other without knowing it across a guild conflict. Once they know, they become inseparable. Her bracelet and his are attuned; he can always find her. His family is back in Erinn — or at least he hopes so.' },
+        { type: 'p', text: '**[[Merlin]]:** Mentor. Four years of genuine teaching. Gifted him the knuckles and the techniques that made him uniquely capable in Eorzea. The nature of what Merlin actually is remains open.' },
+        { type: 'p', text: '**[[Auria Van Varus]]:** Antagonist. Hates him ideologically — he is freedom where she is control. She views him as the one who stole Liraz from her.' },
       ]},
     ],
   },
@@ -2257,16 +2441,80 @@ function StubNotice({ todos }) {
 }
 
 function Infobox({ data }) {
+  const [activeTab, setActiveTab] = useState(0);
   if (!data) return null;
+  const hasTabs = data.imageTabs && data.imageTabs.length > 0;
+  const activeImage = hasTabs ? data.imageTabs[activeTab] : null;
+  const groups = data.groups || (data.fields ? [{ heading: null, fields: data.fields }] : []);
+
   return (
     <div className="infobox">
       <div className="infobox-title">{data.title}</div>
-      {(data.fields || []).map(([label, value], i) => (
-        <div key={i} className="infobox-row">
-          <div className="infobox-label">{label}</div>
-          <div className="infobox-value">{value}</div>
-        </div>
+      {hasTabs && (
+        <>
+          <div className="infobox-image-tabs">
+            {data.imageTabs.map((tab, i) => (
+              <div key={i} className={`infobox-image-tab ${activeTab === i ? 'active' : ''}`} onClick={() => setActiveTab(i)}>
+                {tab.label}
+              </div>
+            ))}
+          </div>
+          <div className="infobox-image-area">
+            {activeImage?.src
+              ? <img src={activeImage.src} alt={activeImage.label} />
+              : <span className="infobox-image-placeholder">[ {activeImage?.label} — image pending ]</span>
+            }
+            {activeImage?.caption && <span className="infobox-image-caption">{activeImage.caption}</span>}
+          </div>
+        </>
+      )}
+      {groups.map((group, gi) => (
+        <React.Fragment key={gi}>
+          {group.heading && <div className="infobox-group-header">{group.heading}</div>}
+          {(group.fields || []).map(([label, value], i) => (
+            <div key={i} className="infobox-row">
+              <div className="infobox-label">{label}</div>
+              <div className="infobox-value">{value}</div>
+            </div>
+          ))}
+        </React.Fragment>
       ))}
+    </div>
+  );
+}
+
+function TableOfContents({ sections }) {
+  const numbered = sections.filter(s => s.heading);
+  if (numbered.length < 3) return null;
+  const scrollTo = (id) => {
+    const el = document.getElementById('section-' + id);
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+  return (
+    <div className="toc">
+      <div className="toc-title">Contents</div>
+      <ol className="toc-list">
+        {numbered.map((section, i) => (
+          <li key={section.id} className="toc-item">
+            <a onClick={() => scrollTo(section.id)}>
+              <span className="toc-num">{i + 1}.</span>
+              <span>{section.heading}</span>
+            </a>
+            {section.subsections && section.subsections.length > 0 && (
+              <ol className="toc-sublist">
+                {section.subsections.map((sub, j) => (
+                  <li key={j} className="toc-subitem">
+                    <a onClick={() => scrollTo(section.id + '-' + j)}>
+                      <span className="toc-num" style={{width: 28}}>{i + 1}.{j + 1}</span>
+                      <span>{sub}</span>
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            )}
+          </li>
+        ))}
+      </ol>
     </div>
   );
 }
@@ -2275,8 +2523,6 @@ function ArticlePage({ article, navigate }) {
   const hasTodos = article.todos && article.todos.length > 0;
   const leadSection = article.sections?.find(s => s.id === 'overview' && !s.heading);
   const otherSections = article.sections?.filter(s => s !== leadSection) || [];
-
-  const leadContent = leadSection?.content || [];
   const hasInbox = article.infobox;
 
   return (
@@ -2298,15 +2544,16 @@ function ArticlePage({ article, navigate }) {
       <div className={hasInbox ? 'article-with-infobox' : ''}>
         {hasInbox && <Infobox data={article.infobox} />}
         <div className="article-body">
-          {leadContent.length > 0 && (
+          {leadSection && (
             <div className="article-lead">
-              {leadContent.map((block, i) => (
+              {(leadSection.content || []).map((block, i) => (
                 <ContentBlock key={i} block={block} navigate={navigate} />
               ))}
             </div>
           )}
+          <TableOfContents sections={otherSections} />
           {otherSections.map(section => (
-            <div key={section.id} className="article-section">
+            <div key={section.id} id={'section-' + section.id} className="article-section">
               {section.heading && (
                 <h2 className="section-heading">{section.heading}</h2>
               )}
