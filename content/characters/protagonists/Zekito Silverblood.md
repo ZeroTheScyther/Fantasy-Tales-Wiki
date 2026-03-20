@@ -11,10 +11,6 @@ aliases:
   - Zekito Silverblood
   - Zekito
   - Zek
-  - Lunair Blackwind
-  - Gerel Kha
-  - The Bracelet
-  - Jeff
 stub: true
 ---
 
@@ -137,7 +133,7 @@ He followed a lead to religious zealots in [[Iria]], stopping at [[Belvast]] fir
 
 ### Arrival in Hydaelyn
 
-How Zekito arrived in [[Hydaelyn]] is not yet documented. He arrived stripped of [[Fomorian Blood|Fomorian power]], reduced to an ordinary sickly Miqo'te body, hair still dark — the body hadn't yet begun reflecting what his soul actually is. Within three years it turned white. Odd jobs in Ul'dah, training with the Pugilist Guild. Mage Gerel Kha diagnosed his soul dissonance and directed him to [[Lunar Rose Academy]]. Lunar Rose is where the plot begins.
+How Zekito arrived in [[Hydaelyn]] is not yet documented. He arrived stripped of [[Fomorian Blood|Fomorian power]], reduced to an ordinary sickly Miqo'te body, hair still dark — the body hadn't yet begun reflecting what his soul actually is. Within three years it turned white. Odd jobs in Ul'dah, training with the Pugilist Guild. [[Gerel Kha]], a mage in Ul'dah, diagnosed his soul dissonance and directed him to both a magitek engineer (who built him stabilizing armour) and [[Lunar Rose Academy]]. Lunar Rose is where the plot begins.
 
 ## Plots
 
@@ -147,7 +143,7 @@ Zekito enrolled at [[Lunar Rose Academy]] posing as a student while searching fo
 
 ### Fury's Gaze Arc
 
-Zekito was captured by [[Fury's Gaze|Auria's facility]]. His bracelet markings were removed; his condition deteriorated to psychosis and animalistic behaviour. Compound Psi was administered on [[Auria Van Varus|Auria]]'s orders. He escaped containment and slaughtered his way to the 1F elevator before being retrieved by [[Lorelai Lesrekta]]. No bond recorded. No rung. **No status recorded.** [[Cailean Arda]] was watching throughout as [[Umbra]]'s embedded observer.
+Zekito was captured by [[Fury's Gaze|Auria's facility]]. An arcana seal placed on him by [[Lunair Blackwind]] — a temporary measure to stabilize his soul dissonance while a permanent solution was found — was stripped away by Auria's men. His condition deteriorated to psychosis and animalistic behaviour. Compound Psi was administered on [[Auria Van Varus|Auria]]'s orders. He escaped containment and slaughtered his way to the 1F elevator before being retrieved by [[Lorelai Lesrekta]]. No bond recorded. No rung. **No status recorded.** [[Cailean Arda]] was watching throughout as [[Umbra]]'s embedded observer.
 
 ### Runes of Chimera
 
