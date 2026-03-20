@@ -19,10 +19,14 @@ stub: false
 >
 > | | |
 > |---|---|
+> | **Titles** | [TODO] |
+> | **Also Known As** | [TODO] |
 > | **Race** | [TODO] |
-> | **Age at Filing** | 18 |
-> | **Subject File** | 216Ψ |
-> | **Voidsent Bond** | Cerberus, Rung Three |
+> | **True Age** | 18 (at filing) |
+> | **Height** | [TODO] |
+> | **Weight** | [TODO] |
+> | **Job** | [TODO] |
+> | **Created By** | [TODO] |
 >
 > **Personal Status**
 >
@@ -43,6 +47,12 @@ stub: false
 > | | |
 > |---|---|
 > | **Current** | Umbra asset / hunter |
+>
+> **Base of Operations**
+>
+> | | |
+> |---|---|
+> | **Current** | [TODO] |
 >
 
 

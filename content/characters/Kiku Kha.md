@@ -18,16 +18,39 @@ stub: true
 >
 > | | |
 > |---|---|
+> | **Titles** | [TODO] |
+> | **Also Known As** | Kiku |
 > | **Race** | [TODO] |
-> | **Affiliation** | The Rose and Her Thorns |
-> | **Combat Role** | Fighter — aetherial enhancement (Berserker Mode) |
+> | **True Age** | [TODO] |
+> | **Height** | [TODO] |
+> | **Weight** | [TODO] |
+> | **Job** | [TODO] |
+> | **Created By** | [TODO] |
 >
 > **Personal Status**
 >
 > | | |
 > |---|---|
 > | **Status** | Alive |
-> | **Closest To** | [[Hwaryun Tzuyu\|Hwaryun]] |
+> | **Relatives** | [TODO] |
+>
+> **Affiliation**
+>
+> | | |
+> |---|---|
+> | **Current** | The Rose and Her Thorns |
+>
+> **Occupation**
+>
+> | | |
+> |---|---|
+> | **Current** | [TODO] |
+>
+> **Base of Operations**
+>
+> | | |
+> |---|---|
+> | **Current** | [TODO] |
 >
 
 
@@ -41,4 +64,5 @@ stub: true
 | Berserker Mode | Aetherial enhancement for massive strength boost — loses sight of friend and foe. Everyone becomes a target. |
 | Glamour Prism | Can change her physical appearance. Does NOT affect her voice. |
 | Weakness | Berserker Mode risk — prone to battle frenzy |
+| Closest To | [[Hwaryun Tzuyu\|Hwaryun]] — her most important person in the Rose and Her Thorns |
 | Hates | Anyone hurting Hwaryun |

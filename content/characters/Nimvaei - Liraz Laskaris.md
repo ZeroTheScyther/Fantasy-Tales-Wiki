@@ -24,14 +24,14 @@ stub: true
 >
 > | | |
 > |---|---|
-> | **Full Name** | Nimvaei Tumet (formerly Liraz Laskaris) |
+> | **Titles** | [TODO] |
+> | **Also Known As** | Nimvaei; Liraz; Liraz Laskaris |
 > | **Race** | Au Ra (Xaela) |
-> | **Age** | 26 |
+> | **True Age** | 26 |
 > | **Height** | 174 cm |
-> | **Build** | Slender but strong |
-> | **Scales** | Black |
-> | **Eyes** | Golden |
-> | **Job** | Dark Knight  |
+> | **Weight** | [TODO] |
+> | **Job** | Dark Knight |
+> | **Created By** | [TODO] |
 >
 > **Personal Status**
 >
@@ -59,6 +59,7 @@ stub: true
 > | | |
 > |---|---|
 > | **Current** | [TODO] |
+> | **Previous** | [[Fury's Gaze]] facility (captive); Western Coerthas Highlands |
 >
 
 
@@ -91,9 +92,9 @@ Her natural aetherial alignment is Fire — mirrors her Dark Knight soul; both a
 
 Cold, jagged, capable. A trained assassin and Dark Knight, groomed from childhood by [[Auria Van Varus]]. She hides inside Nimvaei's mind for most of the story, surfacing in moments of crisis. She is afraid of her own Dark Knight abilities — not that they would consume her, but that she might actually want them to.
 
-She did not choose the Dark Knight path. She picked up [[Luvsan]]'s soul crystal from his body. What she did not know until the [[Woeborn]] fight: she had killed the man it belonged to. He had been there trying to free her. She put a knife in his neck because everything in her said threat. She didn't know. She didn't care. She was safe. That was enough, back then.
+She did not choose the Dark Knight path. She picked up [[Luvsan Tumet]]'s soul crystal from his body. What she did not know until the [[Woeborn]] fight: she had killed the man it belonged to. He had been there trying to free her. She put a knife in his neck because everything in her said threat. She didn't know. She didn't care. She was safe. That was enough, back then.
 
-Liraz's breakthrough is mechanical as well as narrative: she can only defeat the shade of [[Luvsan]] inside [[Woeborn]] by letting it stab her — by stopping running from what she is. When she does, the shadow becomes her blade.
+Liraz's breakthrough is mechanical as well as narrative: she can only defeat the shade of [[Luvsan Tumet]] inside [[Woeborn]] by letting it stab her — by stopping running from what she is. When she does, the shadow becomes her blade.
 
 ## History
 
@@ -105,7 +106,7 @@ It was out of that fractured survival state that [[Auria Van Varus]] found her. 
 
 ### Under Auria
 
-Dragon blood experimentation. Training that was also systematic psychological dismantlement. Liraz was intended to be [[Auria Van Varus|Auria's]] prized creation and eventual successor. At some point she was in a group being transported to a brothel Auria owned when [[Luvsan]] attacked Auria's men trying to free them. She killed him, not knowing who he was. She picked up his crystal years later, not knowing she had killed the man it belonged to.
+Dragon blood experimentation. Training that was also systematic psychological dismantlement. Liraz was intended to be [[Auria Van Varus|Auria's]] prized creation and eventual successor. At some point she was in a group being transported to a brothel Auria owned when [[Luvsan Tumet]] attacked Auria's men trying to free them. She killed him, not knowing who he was. She picked up his crystal years later, not knowing she had killed the man it belonged to.
 
 The hardest decision she ever made was choosing to break free from her chains — to stop enduring and start choosing. To pursue what she actually wanted, for the first time, on her own terms.
 
@@ -141,7 +142,7 @@ She is the reason [[Zekito Silverblood|Zekito]] escaped [[Fury's Gaze]] with his
 
 ### Runes of Chimera
 
-The player character in [[Runes of Chimera]]. She acquires six elemental runes across the quest — Ice, Water, Earth, Levin, Fire, Wind — each tied to a location. The Woeborn fight at Red Rim forces her to relive the memory of killing [[Luvsan]] and finally understand what she had been seeing. She defeats the shade by letting it stab her. The shadow becomes her blade.
+The player character in [[Runes of Chimera]]. She acquires six elemental runes across the quest — Ice, Water, Earth, Levin, Fire, Wind — each tied to a location. The Woeborn fight at Red Rim forces her to relive the memory of killing [[Luvsan Tumet]] and finally understand what she had been seeing. She defeats the shade by letting it stab her. The shadow becomes her blade.
 
 ### Umbra Arc
 
@@ -153,6 +154,6 @@ She cut and dyed [[Zekito Silverblood|Zekito's]] hair black at the start of this
 
 **[[Auria Van Varus|Auria]]:** Her abuser, her maker, the person whose voice still lives in the architecture of her fear responses. Auria views her as a stolen possession.
 
-**[[Luvsan]]:** The man she killed without knowing who he was. Whose crystal she carried for years without knowing she had killed him. Whose rage became her courage. He passed the torch. She carries it.
+**[[Luvsan Tumet]]:** The man she killed without knowing who he was. Whose crystal she carried for years without knowing she had killed him. Whose rage became her courage. He passed the torch. She carries it.
 
 **[[Woeborn]]:** Half of her soul is the sword. All inhabitants can reach her. Nimvaei — her living shadow — is inside it.

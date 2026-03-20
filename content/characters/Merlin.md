@@ -18,17 +18,21 @@ stub: false
 >
 > | | |
 > |---|---|
+> | **Titles** | [TODO] |
+> | **Also Known As** | [TODO] |
 > | **Race** | [TODO — Erinn] |
+> | **True Age** | ~100+ (unaged) |
+> | **Height** | [TODO] |
+> | **Weight** | [TODO] |
 > | **Job** | Druid |
-> | **Inventions** | Snap Cast, Spellwalk, Meteor Strike |
-> | **Student** | [[Zekito Silverblood]] |
+> | **Created By** | [TODO] |
 >
 > **Personal Status**
 >
 > | | |
 > |---|---|
 > | **Status** | Active — unaged; sightings across Erinn persist |
-> | **True Nature** | [TODO — what is Merlin exactly?] |
+> | **Relatives** | [TODO] |
 >
 > **Affiliation**
 >
@@ -71,7 +75,7 @@ Merlin tested both [[Zekito Silverblood|Zekito]] and [[Mewecho]] before agreeing
 
 ## History
 
-Cast his first Lightning Bolt at age three. Invented his first spell at eleven. Mastered every known form of magic by twenty-three. Was made Royal Castle Druid. The work lacked challenge. He vanished in search of adventure over a century ago and has not aged a day since. [TODO: What Merlin actually is remains an open question — even he is not forthcoming about it.]
+Cast his first Lightning Bolt at age three. Invented his first spell at eleven. Mastered every known form of magic by twenty-three. Was made Royal Castle Druid. The work lacked challenge. He vanished in search of adventure over a century ago and has not aged a day since. His true nature remains an open question — [TODO] what Merlin actually is, even he is not forthcoming about it.
 
 ## Plots
 

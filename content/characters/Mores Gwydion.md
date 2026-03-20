@@ -21,18 +21,21 @@ stub: false
 >
 > | | |
 > |---|---|
-> | **True Age** | ~120+ (body-hopped since 1537) |
+> | **Titles** | [TODO] |
+> | **Also Known As** | Orraux Clauvier (current vessel) |
 > | **Race** | Human (Werlyt) |
-> | **Origin** | Werlyt |
-> | **Technique** | [[Oversoul]] |
-> | **Daughter** | Mari (soul in [[Woeborn]]) |
+> | **True Age** | ~120+ (body-hopped since 1537) |
+> | **Height** | [TODO] |
+> | **Weight** | [TODO] |
+> | **Job** | [TODO] |
+> | **Created By** | [TODO] |
 >
 > **Personal Status**
 >
 > | | |
 > |---|---|
 > | **Status** | Dormant within [[Woeborn]] — at peace |
-> | **Current Vessel** | Orraux Clauvier (comatose) |
+> | **Relatives** | [[Mari]] (daughter — soul within [[Woeborn]]) |
 >
 > **Affiliation**
 >
@@ -45,7 +48,15 @@ stub: false
 >
 > | | |
 > |---|---|
+> | **Current** | None (dormant within Woeborn) |
 > | **Previous** | Royal Mage; body-hopper |
+>
+> **Base of Operations**
+>
+> | | |
+> |---|---|
+> | **Current** | [[Woeborn]] (dormant) |
+> | **Previous** | Werlyt; Camp Dragonhead (as Orraux) |
 >
 
 
@@ -74,4 +85,4 @@ As Orraux, he sends [[Zekito Silverblood|Zekito]] and [[Nimvaei / Liraz Laskaris
 
 His goal: a true full resurrection of [[Mari]], not merely the mammet approximation. The six ingredients map to the components of a soul harmonization process — with [[Woeborn]] (containing [[Mari]]'s soul) as the final vessel.
 
-**Ending:** [[Nimvaei / Liraz Laskaris|Nimvaei]], with help from [[Luvsan]] (dormant in Woeborn) and the mammet [[Mari]], pulls Mores' soul into [[Woeborn]], where Nidhogg's hunger confines him. Orraux is left comatose. Mores, dormant in the blade, eventually comes to a kind of peace — he is with [[Mari]] again, in a sense.
+**Ending:** [[Nimvaei / Liraz Laskaris|Nimvaei]], with help from [[Luvsan Tumet]] (dormant in Woeborn) and the mammet [[Mari]], pulls Mores' soul into [[Woeborn]], where Nidhogg's hunger confines him. Orraux is left comatose. Mores, dormant in the blade, eventually comes to a kind of peace — he is with [[Mari]] again, in a sense.

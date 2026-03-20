@@ -1,5 +1,5 @@
 ---
-title: "Zekito Silverblood"
+title: Zekito Silverblood
 subtitle: "\"The world doesn't owe you a second chance. Take it anyway.\""
 category: character
 tags:
@@ -8,14 +8,14 @@ tags:
   - hydaelyn
   - protagonist
 aliases:
-  - "Zekito Silverblood"
-  - "Zekito"
-  - "Zek"
-  - "Lunair Blackwind"
-  - "Gerel Kha"
-  - "The Bracelet"
-  - "Jeff"
-stub: false
+  - Zekito Silverblood
+  - Zekito
+  - Zek
+  - Lunair Blackwind
+  - Gerel Kha
+  - The Bracelet
+  - Jeff
+stub: true
 ---
 
 > [!infobox]
@@ -27,35 +27,34 @@ stub: false
 >
 > | | |
 > |---|---|
-> | **Titles** | Son of the Silver King; Captain of the Fenrir Unit |
+> | **Titles** | Captain of the Fenrir Unit; Bladebreaker |
 > | **Also Known As** | Zek |
 > | **Race** | Miqo'te / Fomorian half-breed |
-> | **True Age** | ~200 years (former demigod; ~20% original power) |
+> | **Age** | 27|
 > | **Height** | 186 cm (6'1") |
 > | **Weight** | 75 kg (165 lbs) |
 > | **Job** | Elemental Slayer |
-> | **Created By** | John (ZeroTheScyther) |
 >
 > **Personal Status**
 >
 > | | |
 > |---|---|
-> | **Status** | Alive — soul dissonance ongoing |
+> | **Status** | Alive |
 > | **Relatives** | Isanshiro (father), Mewecho (twin sister), Unnamed Fomorian mother (deceased) |
 >
 > **Affiliation**
 >
 > | | |
 > |---|---|
-> | **Current** | Oswin's Ship |
-> | **Previous** | Audacia, Blood Knights (Fenrir Unit), Lunar Rose Academy |
+> | **Current** | None |
+> | **Previous** | Audacia, Blood Knights (Fenrir Unit), Lunar Rose Academy, Seeker's Garden |
 >
 > **Occupation**
 >
 > | | |
 > |---|---|
-> | **Current** | Adventurer |
-> | **Previous** | Street Rat → Pit Fighter → Adventurer → Blood Knights Captain (Fenrir Unit) → Audacia Councillor → Student (Lunar Rose Academy) |
+> | **Current** | Professional Troubleseeker|
+> | **Previous** | Pit Fighter → Adventurer → Audacia Councillor → Blood Knights Captain (Fenrir Unit) → Student (Lunar Rose Academy) |
 >
 > **Base of Operations**
 >
@@ -72,29 +71,30 @@ He is tall, muscular, silver-haired, and red-eyed — an immediately striking pr
 
 ## Appearance
 
-| Attribute | Detail |
-| --- | --- |
-| Hair | Silver-white, short and messy in current form. Arrived in Eorzea with dark hair — turned white within 3 years. During the Umbra arc, Nimvaei cut and dyed it black as a disguise. |
-| Eyes | Red — burning and intense, the gaze of a predator watching prey |
-| Height / Weight | 186 cm (6'1") / 75 kg (165 lbs) |
-| Build | Tall, muscular |
-| Ears | Cat ears — he hears far more than he admits to |
-| Tail | White and fluffy; usually wrapped under his shirt in company |
-| Scars | Numerous — torso, arms, legs |
-| Signature Colors | Red dominant, with black |
+| Attribute        | Detail              |
+| ---------------- | ------------------- |
+| Hair             | Silver-white, Messy |
+| Eyes             | Red                 |
+| Height           | 186 cm (6'1")       |
+| Weight           | 75 kg (165 lbs)     |
+| Build            | Tall, muscular      |
+| Ears             | Cat ears            |
+| Tail             | White and fluffy    |
+| Scars            | Numerous            |
+| Signature Colors | Red and Black       |
 
 ### Outfit by Arc
 
-| Period | Outfit |
-| --- | --- |
-| Early Eorzea | Black tank top, dark trousers, fingerless gloves. Dark hair. |
-| Lunar Rose Uniform | Teal blue collared shirt with gold pin detailing, white trousers, white shoes. |
+| Period               | Outfit                                                                                                   |
+| -------------------- | -------------------------------------------------------------------------------------------------------- |
+| Early Eorzea         | Black tank top, dark trousers, fingerless gloves. Dark hair.                                             |
+| Lunar Rose Uniform   | Teal blue collared shirt with gold pin detailing, white trousers, white shoes.                           |
 | Lunar Rose Going Out | Heavy dark grey long coat with fur-trimmed collar, multiple buckle straps, platform boots, green choker. |
-| Combat | Black with gold chain detailing, armoured legs, long black coat. |
-| Date / Off Duty | White dress shirt, red vest, black tie. |
-| Cold Weather | Brown leather coat with fur trim. |
-| Umbra Disguise | Hair cut and dyed black by Nimvaei. Dark ears. Stripped-back dark clothes. |
-| Current Signature | Bold red long coat with fur-trimmed shoulders. Red dominant. |
+| Combat               | Black with gold chain detailing, armoured legs, long black coat.                                         |
+| Date / Off Duty      | White dress shirt, red vest, black tie.                                                                  |
+| Cold Weather         | Brown leather coat with fur trim.                                                                        |
+| Umbra Disguise       | Hair cut and dyed black by Nimvaei. Dark ears. Stripped-back dark clothes.                               |
+| Current Signature    | Bold red long coat with fur-trimmed shoulders. Red dominant.                                             |
 
 ## Personality
 
@@ -189,28 +189,28 @@ Taught by [[Merlin]]. **Snap Cast:** Chargeable spells fire instantly — the fi
 
 ### Spell List
 
-| Spell | Description |
-| --- | --- |
-| Fireball | Gathers fire aether, hurls at enemy. Up to five in quick succession. |
-| Flame Torrent | Stomps foot; torrent of fire surrounds briefly. |
-| Lightning Rod (Snap Cast) | Stores a charge, deploys on finger snap. Instant bolt to target. |
-| Lightning Rod (Full Cast) | Massive levin release. Cannot move while channeling. |
-| Ice Dagger / Shards | Throws an ice dagger; variant explodes into shrapnel. |
-| Ice Wall / Spikes | Wall for cover, or ice spikes from the ground. |
-| Wind Blast | Deflects projectiles and people. |
-| Wind's Razor | Vibrating wind strip around hands — chainsaw-like. |
-| Titan's Fists | Rock-hard gauntlets increase punching power. |
-| Barrier | Flat aetherial barriers. Usable as platforms. Up to 5 at once. |
-| Mana Ward / Shield | Ward: redirects impact to ground. Shield: sustained absorption. |
-| Tri-Bind | Aetherial chains from ground or self to bind enemies. |
-| Sense Dulling / Heightening | Via direct contact: suppresses or amplifies target's senses. |
-| Clach (Rock Armor) | Rips rock shards from ground, fashions into armor. |
-| Voice Throw / Change | Projects voice elsewhere, or modulates it to impersonate. |
-| Sidhe / Fairy Dash | Near-teleportation speed via wind blasts. Max two consecutive uses. [Wind Attunement] |
-| Void's Hunger | Absorbs aether from any touched object or creature. Fuels spells, heals. Fomorian nature refined — not a learned technique. |
-| Thunder Serpent | Temporarily converts body into pure lightning. Instant only. |
-| Xceed (LB2) | 11 seconds of supersonic speed and destructive force. Body collapses when it ends. |
-| Meteor (LB3) | Third Limit Break. Invented by [[Merlin]]. Most destructive spell in his arsenal. [Full mechanics TBD] |
+| Spell                       | Description                                                                                                                 |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Fireball                    | Gathers fire aether, hurls at enemy. Up to five in quick succession.                                                        |
+| Flame Torrent               | Stomps foot; torrent of fire surrounds briefly.                                                                             |
+| Lightning Rod (Snap Cast)   | Stores a charge, deploys on finger snap. Instant bolt to target.                                                            |
+| Lightning Rod (Full Cast)   | Massive levin release. Cannot move while channeling.                                                                        |
+| Ice Dagger / Shards         | Throws an ice dagger; variant explodes into shrapnel.                                                                       |
+| Ice Wall / Spikes           | Wall for cover, or ice spikes from the ground.                                                                              |
+| Wind Blast                  | Deflects projectiles and people.                                                                                            |
+| Wind's Razor                | Vibrating wind strip around hands — chainsaw-like.                                                                          |
+| Titan's Fists               | Rock-hard gauntlets increase punching power.                                                                                |
+| Barrier                     | Flat aetherial barriers. Usable as platforms. Up to 5 at once.                                                              |
+| Mana Ward / Shield          | Ward: redirects impact to ground. Shield: sustained absorption.                                                             |
+| Tri-Bind                    | Aetherial chains from ground or self to bind enemies.                                                                       |
+| Sense Dulling / Heightening | Via direct contact: suppresses or amplifies target's senses.                                                                |
+| Clach (Rock Armor)          | Rips rock shards from ground, fashions into armor.                                                                          |
+| Voice Throw / Change        | Projects voice elsewhere, or modulates it to impersonate.                                                                   |
+| Sidhe / Fairy Dash          | Near-teleportation speed via wind blasts. Max two consecutive uses. [Wind Attunement]                                       |
+| Void's Hunger               | Absorbs aether from any touched object or creature. Fuels spells, heals. Fomorian nature refined — not a learned technique. |
+| Thunder Serpent             | Temporarily converts body into pure lightning. Instant only.                                                                |
+| Xceed (LB1)                 | 11 seconds of supersonic speed and destructive force. Body collapses when it ends.                                          |
+| Meteor (LB3)                | Third Limit Break. Invented by [[Merlin]]. Most destructive spell in his arsenal. [Full mechanics TBD]                      |
 
 ### Aetherial Alignment
 

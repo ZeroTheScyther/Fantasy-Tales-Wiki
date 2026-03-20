@@ -18,7 +18,7 @@ stub: false
 - Requires the host to be alive at time of transfer.
 - Every three years, the host body begins crystallizing from Soul Dissonance — the host's aether fighting the foreign soul, destabilizing aetherial balance. This creates what is publicly known as **Blackram Disease**.
 - Hosts die from the disease if [[Mores Gwydion|Mores]] does not transfer in time.
-- [[Mores Gwydion|Mores]] attempted to Oversoul into [[Luvsan]] but was rejected by Luvsan's rage — leaving Luvsan as a cursed shade sustained by a single drive.
+- [[Mores Gwydion|Mores]] attempted to Oversoul into [[Luvsan Tumet]] but was rejected by Luvsan's rage — leaving Luvsan as a cursed shade sustained by a single drive.
 
 ## Mores' Known Hosts
 

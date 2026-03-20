@@ -18,19 +18,20 @@ stub: false
 >
 > | | |
 > |---|---|
+> | **Titles** | [TODO] |
+> | **Also Known As** | [TODO] |
 > | **Race** | Hyur |
-> | **Age** | 23 |
-> | **Subject File** | 46Ω |
-> | **Doses Received** | 6 (Compound Omega) |
-> | **Weapon** | Axe |
-> | **Combat Role** | Tank |
+> | **True Age** | 23 |
+> | **Height** | [TODO] |
+> | **Weight** | [TODO] |
+> | **Job** | [TODO] |
+> | **Created By** | [TODO] |
 >
 > **Personal Status**
 >
 > | | |
 > |---|---|
 > | **Status** | Alive — total sensory loss |
-> | **Compound Result** | FAILURE — overdose |
 > | **Relatives** | [TODO] |
 >
 > **Affiliation**
@@ -40,6 +41,18 @@ stub: false
 > | **Current** | [[Umbra]] (Shade + Asset) |
 > | **Previous** | [[Fury's Gaze]] experimental subject |
 >
+> **Occupation**
+>
+> | | |
+> |---|---|
+> | **Current** | Umbra operative (Shade + Asset) |
+>
+> **Base of Operations**
+>
+> | | |
+> |---|---|
+> | **Current** | [TODO] |
+>
 
 
 **Amelia Graves** is an [[Umbra]] operative — Shade and Asset — and one of [[Auria Van Varus|Auria's]] experimental subjects. Six doses of Compound Omega progressively degraded her sensory function. Pain receptors first, then all sensation. Motor function and cognition remain intact. She can move, speak, and fight. She cannot feel anything.
@@ -47,6 +60,8 @@ stub: false
 Except, it seems, for [[Auria Van Varus|Auria]]. Amelia loves her — genuinely, in whatever broken way is left to someone who can no longer feel warmth, cold, pain, or touch. With [[Auria Van Varus|Auria]] gone, that love is unmoored with nowhere to go. [[Umbra]] considers this a serious volatility risk. She is a grenade with the pin already pulled.
 
 ## History
+
+She is designated **Subject 46Ω** in [[Fury's Gaze|Auria's]] records. Her weapon of choice is an axe and she fought in a tank role. Compound Omega's effect on her was classified as a **FAILURE — overdose**; the six doses degraded her beyond the intended threshold, eliminating all sensation rather than simply dulling pain response.
 
 [TODO: Amelia's full backstory — who she was before Compound Omega, how she came to be in Auria's orbit, what the six doses actually did to her over time.]
 

@@ -18,16 +18,39 @@ stub: true
 >
 > | | |
 > |---|---|
+> | **Titles** | [TODO] |
+> | **Also Known As** | Ordette |
 > | **Race** | [TODO] |
-> | **Affiliation** | The Rose and Her Thorns |
+> | **True Age** | [TODO] |
+> | **Height** | [TODO] |
+> | **Weight** | [TODO] |
 > | **Job** | Conjurer (in training) |
+> | **Created By** | [TODO] |
 >
 > **Personal Status**
 >
 > | | |
 > |---|---|
 > | **Status** | Alive |
-> | **Guardian** | A'gil (overly protective) |
+> | **Relatives** | [TODO] |
+>
+> **Affiliation**
+>
+> | | |
+> |---|---|
+> | **Current** | The Rose and Her Thorns |
+>
+> **Occupation**
+>
+> | | |
+> |---|---|
+> | **Current** | Adventurer (in training) |
+>
+> **Base of Operations**
+>
+> | | |
+> |---|---|
+> | **Current** | [TODO] |
 >
 
 

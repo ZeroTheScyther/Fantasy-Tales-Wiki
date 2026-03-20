@@ -15,22 +15,25 @@ stub: false
 
 > [!infobox]
 > # Oswin Thatcher
-> *Current: Slicked-back silver-streaked dark hair*
+> *Current: Fine but practical merchant attire*
 >
 > | | |
 > |---|---|
+> | **Titles** | [TODO] |
+> | **Also Known As** | Oswin |
 > | **Race** | Hyur (Midlander) |
-> | **Age** | Mid-to-late 40s |
+> | **True Age** | Mid-to-late 40s |
 > | **Height** | Tall |
-> | **Hair** | Slicked-back, silver-streaked dark |
-> | **Eyes** | Hazel — piercing |
-> | **Style** | Fine but practical merchant attire; golden signet ring with family crest |
+> | **Weight** | [TODO] |
+> | **Job** | [TODO] |
+> | **Created By** | [TODO] |
 >
 > **Personal Status**
 >
 > | | |
 > |---|---|
 > | **Status** | Alive — financially ruined, increasingly desperate |
+> | **Relatives** | [TODO] |
 >
 > **Affiliation**
 >
@@ -50,6 +53,7 @@ stub: false
 >
 > | | |
 > |---|---|
+> | **Current** | [[The Silver Bazaar]], Western Thanalan (attempting acquisition) |
 > | **Previous** | Pearl Lane, Ul'dah (pharmacy — burned by [[Zekito Silverblood\|Zekito]]) |
 >
 
@@ -57,6 +61,10 @@ stub: false
 **Oswin Thatcher** is an Ul'dahn businessman and opportunist who mastered the art of playing both sides. His former business, Thatcher & Co. Pharmaceuticals — a small pharmacy in Pearl Lane — was a front for [[Umbra's]] drug distribution network. He profited well but was never truly in control. [[Zekito Silverblood|Zekito]] burned the pharmacy down during his investigation. Officially: a mysterious fire.
 
 Financially ruined, he is now attempting to buy out [[The Silver Bazaar]] with [[Umbra's]] backing and turn it into a new hub for moving their goods. Resident Kikipu is refusing to sell. [[Umbra's]] patience is thinning. Oswin is desperate — and desperation makes him dangerous.
+
+## Appearance
+
+Tall and broad. Slicked-back dark hair with silver streaking through it — the look of a man who still wants to be taken seriously. Hazel eyes that miss very little, despite the warm presentation. He wears fine but practical merchant attire and carries a golden signet ring bearing the Thatcher family crest — one of the few things left of the name he built.
 
 ## Plots
 

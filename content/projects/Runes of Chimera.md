@@ -62,13 +62,13 @@ Orraux is not Orraux. He is [[Mores Gwydion]] — who wrote the book on the ruin
 
 ## Ending
 
-With help from [[Luvsan]] (dormant in [[Woeborn]]) and the mammet [[Mari]], [[Nimvaei / Liraz Laskaris|Nimvaei]] pulls [[Mores Gwydion|Mores']] soul from Orraux's body into [[Woeborn]], where Nidhogg's hunger confines him. Orraux is left comatose. [[Mores Gwydion|Mores]], dormant in the blade, eventually comes to peace — he is with [[Mari]] again, in a sense.
+With help from [[Luvsan Tumet]] (dormant in [[Woeborn]]) and the mammet [[Mari]], [[Nimvaei / Liraz Laskaris|Nimvaei]] pulls [[Mores Gwydion|Mores']] soul from Orraux's body into [[Woeborn]], where Nidhogg's hunger confines him. Orraux is left comatose. [[Mores Gwydion|Mores]], dormant in the blade, eventually comes to peace — he is with [[Mari]] again, in a sense.
 
 The journal [[Mores Gwydion|Mores]] wrote for [[Mari]] — explaining everything he did and why — remains at the Blackram clinic for Edrette and the other patients. It makes it to her, just not the way he planned.
 
 ## The Woeborn Fight — RP Log
 
-Rune 6 (Wind), at Red Rim. [[Nimvaei / Liraz Laskaris|Liraz]] faces the shade of [[Luvsan]] inside the sword realm. This forces her to relive the memory of killing him — and finally understand what she had actually been seeing:
+Rune 6 (Wind), at Red Rim. [[Nimvaei / Liraz Laskaris|Liraz]] faces the shade of [[Luvsan Tumet]] inside the sword realm. This forces her to relive the memory of killing him — and finally understand what she had actually been seeing:
 
 > **Nimvaei (1/7):** It was within those sparse few moments that the shade wrapped its arms around her that the world around her seemed to freeze... It was almost enlightening, emphasising that of which she had gradually allowed herself to believe. Despite his beastly actions, and how fearsome they are, he was in the end...
 >

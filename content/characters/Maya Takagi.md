@@ -18,16 +18,40 @@ stub: true
 >
 > | | |
 > |---|---|
+> | **Titles** | [TODO] |
+> | **Also Known As** | Maya |
 > | **Race** | [TODO] |
-> | **Affiliation** | The Rose and Her Thorns |
-> | **Combat Role** | Battlefield experience / medical knowledge / charm |
-> | **Reference** | mayat.carrd.co |
+> | **True Age** | [TODO] |
+> | **Height** | [TODO] |
+> | **Weight** | [TODO] |
+> | **Job** | [TODO] |
+> | **Created By** | mayat.carrd.co |
 >
 > **Personal Status**
 >
 > | | |
 > |---|---|
 > | **Status** | Alive |
+> | **Relatives** | [TODO] |
+>
+> **Affiliation**
+>
+> | | |
+> |---|---|
+> | **Current** | The Rose and Her Thorns |
+>
+> **Occupation**
+>
+> | | |
+> |---|---|
+> | **Current** | Adventurer |
+> | **Previous** | Imperial Soldier (Ilsabard, active duty) |
+>
+> **Base of Operations**
+>
+> | | |
+> |---|---|
+> | **Current** | [TODO] |
 >
 
 

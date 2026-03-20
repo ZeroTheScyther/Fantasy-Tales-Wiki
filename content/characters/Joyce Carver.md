@@ -18,15 +18,39 @@ stub: false
 >
 > | | |
 > |---|---|
+> | **Titles** | [TODO] |
+> | **Also Known As** | Joyce |
 > | **Race** | [TODO] |
-> | **Occupation** | Herb and spice merchant |
-> | **Location** | [[The Silver Bazaar]], Western Thanalan |
+> | **True Age** | [TODO] |
+> | **Height** | [TODO] |
+> | **Weight** | [TODO] |
+> | **Job** | [TODO] |
+> | **Created By** | [TODO] |
 >
 > **Personal Status**
 >
 > | | |
 > |---|---|
 > | **Status** | Alive |
+> | **Relatives** | [TODO] |
+>
+> **Affiliation**
+>
+> | | |
+> |---|---|
+> | **Current** | The Silver Bazaar (community) |
+>
+> **Occupation**
+>
+> | | |
+> |---|---|
+> | **Current** | Herb and spice merchant |
+>
+> **Base of Operations**
+>
+> | | |
+> |---|---|
+> | **Current** | [[The Silver Bazaar]], Western Thanalan |
 >
 
 

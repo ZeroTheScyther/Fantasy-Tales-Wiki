@@ -17,7 +17,7 @@ stub: false
 ## Contents (End of Story)
 
 - **Nidhogg's hunger/rage** — the baseline. It tries to consume souls confined within.
-- **[[Luvsan]]** — dormant, after passing the torch to [[Nimvaei / Liraz Laskaris|Liraz]].
+- **[[Luvsan Tumet]]** — dormant, after passing the torch to [[Nimvaei / Liraz Laskaris|Liraz]].
 - **[[Mores Gwydion|Mores]]** — dormant, eventually at peace. He is with [[Mari]] again, in a sense.
 - **Nimvaei** — [[Nimvaei / Liraz Laskaris|Liraz's]] living shadow. Summonable. The good, fully merged with the bad.
 

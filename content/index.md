@@ -15,7 +15,7 @@ Welcome to the **Fantasy Tales Wiki** — a living reference for characters, lor
 - [[Lorelai Lesrekta]]
 - [[Amelia Graves]]
 - [[Hapus Anrhefn]]
-- [[Luvsan]]
+- [[Luvsan Tumet]]
 - [[Merlin]]
 
 ## Worlds

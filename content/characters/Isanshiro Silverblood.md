@@ -21,8 +21,13 @@ stub: true
 > | | |
 > |---|---|
 > | **Titles** | The Silver King |
+> | **Also Known As** | Silver Merchant; Isanshiro |
 > | **Race** | Milletian (being from another world) |
-> | **Hair** | Silver (namesake) |
+> | **True Age** | [TODO] |
+> | **Height** | [TODO] |
+> | **Weight** | [TODO] |
+> | **Job** | [TODO] |
+> | **Created By** | [TODO] |
 >
 > **Personal Status**
 >
@@ -35,12 +40,14 @@ stub: true
 >
 > | | |
 > |---|---|
+> | **Current** | [TODO — Erinn] |
 > | **Previous** | The Silver Kingdom (founder/ruler) |
 >
 > **Occupation**
 >
 > | | |
 > |---|---|
+> | **Current** | [TODO] |
 > | **Previous** | Ruler — The Silver Kingdom |
 >
 > **Base of Operations**

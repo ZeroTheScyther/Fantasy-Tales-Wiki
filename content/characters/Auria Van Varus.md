@@ -21,11 +21,13 @@ stub: false
 > | | |
 > |---|---|
 > | **Titles** | General of the Garlean Empire |
+> | **Also Known As** | Auria |
 > | **Race** | Hyur (Midlander) |
+> | **True Age** | [TODO] |
 > | **Height** | 168 cm |
-> | **Eyes** | Brown — sharp, calculating |
-> | **Hair** | Straight, brown, practical military style |
-> | **Weapon** | Gunblade |
+> | **Weight** | [TODO] |
+> | **Job** | [TODO] |
+> | **Created By** | [TODO] |
 >
 > **Personal Status**
 >
@@ -45,12 +47,14 @@ stub: false
 >
 > | | |
 > |---|---|
+> | **Current** | N/A (deceased) |
 > | **Previous** | General (Garlean Empire), Research Director (Fury's Gaze) |
 >
 > **Base of Operations**
 >
 > | | |
 > |---|---|
+> | **Current** | N/A (deceased) |
 > | **Previous** | [[Fury's Gaze]] facility, Western Coerthas Highlands |
 >
 
@@ -58,6 +62,10 @@ stub: false
 **Auria Van Varus** is the former General of the Garlean Empire and the founder/leader of [[Fury's Gaze]]. She retreated to the Western Coerthas Highlands after Garlemald's collapse and built a private research facility, pursuing her vision of creating "Neo-Garleans" — a race bioengineered for superiority. She is the origin of all of [[Nimvaei / Liraz Laskaris|Liraz's]] trauma.
 
 She was killed in 1582, during the events of the [[Final Days]].
+
+## Appearance
+
+Straight brown hair kept in a practical military style. Brown eyes — sharp and calculating, the gaze of someone who has already decided what you are worth. Her preferred weapon is a gunblade. She is rarely seen out of her white military uniform; in the field she wears operational attire.
 
 ## Personality
 
@@ -71,7 +79,7 @@ Shaped by years of abuse under a sadistic captain who molded her into a ruthless
 
 ## Operations
 
-Beyond the [[Compound Research|compound programs]], Auria ran parallel operations serving as income streams and subject supply chains. She owned at least one brothel used to traffic women — primarily young women of the same demographic targeted by the [[Lambs of Dalamud]]. This is how [[Nimvaei / Liraz Laskaris|Liraz]] encountered [[Luvsan]]: she was being transported to that brothel when Luvsan attacked Auria's men to free the captives. Auria had wanted Luvsan dead for years due to the disruption he caused.
+Beyond the [[Compound Research|compound programs]], Auria ran parallel operations serving as income streams and subject supply chains. She owned at least one brothel used to traffic women — primarily young women of the same demographic targeted by the [[Lambs of Dalamud]]. This is how [[Nimvaei / Liraz Laskaris|Liraz]] encountered [[Luvsan Tumet]]: she was being transported to that brothel when Luvsan attacked Auria's men to free the captives. Auria had wanted Luvsan dead for years due to the disruption he caused.
 
 ## Plots
 

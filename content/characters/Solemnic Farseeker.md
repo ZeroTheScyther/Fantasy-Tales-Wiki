@@ -18,16 +18,39 @@ stub: true
 >
 > | | |
 > |---|---|
+> | **Titles** | [TODO] |
+> | **Also Known As** | Sol |
 > | **Race** | [TODO] |
-> | **Nickname** | Sol |
-> | **Affiliation** | The Rose and Her Thorns |
-> | **Combat Role** | Magic / tactics |
+> | **True Age** | [TODO] |
+> | **Height** | [TODO] |
+> | **Weight** | [TODO] |
+> | **Job** | [TODO] |
+> | **Created By** | [TODO] |
 >
 > **Personal Status**
 >
 > | | |
 > |---|---|
 > | **Status** | Alive |
+> | **Relatives** | [TODO] |
+>
+> **Affiliation**
+>
+> | | |
+> |---|---|
+> | **Current** | The Rose and Her Thorns |
+>
+> **Occupation**
+>
+> | | |
+> |---|---|
+> | **Current** | [TODO] |
+>
+> **Base of Operations**
+>
+> | | |
+> |---|---|
+> | **Current** | [TODO] |
 >
 
 

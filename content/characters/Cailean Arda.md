@@ -1,6 +1,6 @@
 ---
-title: "Cailean Arda"
-subtitle: "He was never Auria's. He was always watching."
+title: Cailean Arda
+subtitle: He was never Auria's. He was always watching.
 category: character
 tags:
   - character
@@ -8,8 +8,8 @@ tags:
   - umbra
   - fury-gaze
 aliases:
-  - "Cailean Arda"
-  - "Cailean"
+  - Cailean Arda
+  - Cailean
 stub: true
 ---
 
@@ -19,16 +19,20 @@ stub: true
 >
 > | | |
 > |---|---|
-> | **Born** | 1552 |
-> | **Race** | [TODO] |
-> | **Job** | Scholar (SCH) — fights alongside a fairy/pixie simultaneously |
-> | **Combat Role** | Schemer / gank-type fighter |
+> | **Titles** | [TODO] |
+> | **Also Known As** | [TODO] |
+> | **Race** | Miqo'te |
+> | **True Age** | ~30 (born 1552) |
+> | **Height** | [TODO] |
+> | **Weight** | [TODO] |
+> | **Job** | Scholar |
 >
 > **Personal Status**
 >
 > | | |
 > |---|---|
 > | **Status** | Alive |
+> | **Relatives** | [TODO] |
 >
 > **Affiliation**
 >
@@ -42,7 +46,14 @@ stub: true
 > | | |
 > |---|---|
 > | **Current** | Umbra operative — retrieving Assets post-Auria |
-> | **Previous** | [[Auria Van Varus\|Auria]]'s apparent second-in-command (cover) |
+> | **Previous** | [[Auria Van Varus\|Auria]]'s second-in-command |
+>
+> **Base of Operations**
+>
+> | | |
+> |---|---|
+> | **Current** | Unknown |
+> | **Previous** | Fury's Gaze HQ |
 >
 
 
