@@ -63,6 +63,10 @@ stub: true
 
 He placed memory seals on the twins to protect them, then disappeared. He later resurfaced in contact with [[Mewecho]], who kept this secret from [[Zekito Silverblood|Zekito]] out of fear of his reaction. He is deeply guarded about what happened to the twins' mother — the one subject he will not discuss.
 
+## Appearance
+
+Isanshiro has silver hair — the defining feature that gave his bloodline its name. [TODO: full physical description.]
+
 **The Silverblood name** did not come from Isanshiro — his true name before he became the Silver King is unknown. The name grew from outside: references to 'the silver-haired bloodline' shortened over time to 'the Silverbloods', and eventually became the family name that Zekito and Mewecho carry. A name earned from history rather than given at birth.
 
 ## History

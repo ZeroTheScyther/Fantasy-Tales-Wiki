@@ -124,7 +124,7 @@ The first activation was not her choice — someone stabbed her with [[Woeborn]]
 - Anti-aether nullification: all aetherial enhancements, spells, and defenses are cancelled on contact. Mages are effectively helpless against her in this state.
 - Extreme physical boost: strength and endurance push far beyond normal limits — she must be careful not to overexert and break her own body.
 
-### Cost
+### Cons
 
 - Every activation is a risk — losing the internal fight against Nidhogg means she is gone.
 - Significant physical toll on recovery.
@@ -156,4 +156,4 @@ She cut and dyed [[Zekito Silverblood|Zekito's]] hair black at the start of this
 
 **[[Luvsan Tumet]]:** The man she killed without knowing who he was. Whose crystal she carried for years without knowing she had killed him. Whose rage became her courage. He passed the torch. She carries it.
 
-**[[Woeborn]]:** Half of her soul is the sword. All inhabitants can reach her. Nimvaei — her living shadow — is inside it.
+**[[Woeborn]]:** Liraz's soul-bound weapon.

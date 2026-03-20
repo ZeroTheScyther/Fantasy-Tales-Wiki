@@ -38,7 +38,7 @@ stub: true
 >
 > | | |
 > |---|---|
-> | **Current** | The Rose and Her Thorns |
+> | **Current** | [[Lunar Rose Adventuring Academy]] |
 >
 > **Occupation**
 >
@@ -55,6 +55,10 @@ stub: true
 
 
 **Kiku Kha** is a member of the Rose and Her Thorns — the party investigating and opposing [[Auria Van Varus|Auria's]] operations. Observational by nature and a formidable fighter, she is the person most likely to notice something before anyone else does.
+
+## Appearance
+
+[TODO]
 
 ## Personality
 

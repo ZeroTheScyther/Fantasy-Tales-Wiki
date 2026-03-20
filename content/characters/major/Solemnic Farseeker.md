@@ -38,7 +38,7 @@ stub: true
 >
 > | | |
 > |---|---|
-> | **Current** | The Rose and Her Thorns |
+> | **Current** | [[Lunar Rose Adventuring Academy]] |
 >
 > **Occupation**
 >
@@ -55,6 +55,10 @@ stub: true
 
 
 **Solemnic Farseeker** (known as Sol) is the tactician of the Rose and Her Thorns. Tactics, planning, magic, combat, math — he is capable across the board. Social situations are the one thing that unravel him.
+
+## Appearance
+
+[TODO]
 
 ## Personality
 

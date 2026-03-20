@@ -58,6 +58,10 @@ stub: false
 
 **Lorelai Lesrekta** is an [[Umbra]] asset — the result of [[Auria Van Varus|Auria's]] Compound Psi program. She was brought in confirmed dead after [[Nimvaei / Liraz Laskaris|Liraz]] stabbed her, and bonded to a voidsent (Cerberus, Rung Three) through a Darkhold Rift infusion. She retained her sense of self despite the fiend's presence — but requires regular doses of Compound Psi to survive. [[Umbra]] holds that leash.
 
+## Appearance
+
+[TODO]
+
 Her goal is [[Nimvaei / Liraz Laskaris|Liraz]] — personally. Her vendetta is not ideological; it is specific. She was also the one who dragged [[Zekito Silverblood|Zekito]] back to his cell when he nearly escaped [[Fury's Gaze]].
 
 ## History

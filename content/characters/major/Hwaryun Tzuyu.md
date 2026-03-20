@@ -39,7 +39,7 @@ stub: true
 >
 > | | |
 > |---|---|
-> | **Current** | The Rose and Her Thorns |
+> | **Current** | [[Lunar Rose Adventuring Academy]] |
 >
 > **Occupation**
 >
@@ -56,6 +56,10 @@ stub: true
 
 
 **Hwaryun Tzuyu** (known as Ryun) is the markswoman of the Rose and Her Thorns. Extremely confident in her marksmanship — her go-to weapon since before Lunar Rose. The hesitance comes when she has to make a decision, not when she has to pull a trigger.
+
+## Appearance
+
+[TODO]
 
 ## Personality
 

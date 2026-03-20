@@ -58,6 +58,10 @@ stub: false
 
 **Merlin** is one of the most powerful mages in [[Erinn]] — and one of the most mysterious. He cast his first Lightning Bolt at age three. Invented his first new spell at eleven. Mastered every known form of magic by twenty-three. The magic community expected much from him; he was made Royal Castle Druid and put to work on research and kingdom defence. The work lacked the challenge to hold his interest. He vanished in search of adventure. That was over a hundred years ago.
 
+## Appearance
+
+Merlin appears unchanged from over a century ago — he has not aged a day since vanishing from the Royal Castle. [TODO: full physical description.]
+
 He hasn't aged a day. Reports persist: if you are ever in genuine need, a Druid fitting his description will appear. Ever the playful prankster.
 
 ## Inventions

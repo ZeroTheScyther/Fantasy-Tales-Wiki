@@ -59,6 +59,10 @@ stub: false
 
 **Luvsan** was a mercenary and Dark Knight operating in Western [[Coerthas]]. He dedicated his life to protecting a small frozen settlement at the edge of the wastes — providing food, gil, and safety to the people who lived there. He had a sister.
 
+## Appearance
+
+[TODO]
+
 He died three times.
 
 The first was in 1570, when [[Mores Gwydion]] lured him to [[Ishgard]] and Oversouls into his body. The attempt partially succeeded — not in the way Mores intended, but in the worst possible way. Luvsan's will was too strong to be fully displaced, but the cost was catastrophic. His body was left puppeteered by rage and duty, wandering Coerthas as a shade: still fighting [[Auria Van Varus|Auria's]] men, still looking for his sister, running on the last things that mattered to him with nothing left behind the eyes.

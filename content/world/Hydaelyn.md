@@ -28,7 +28,7 @@ stub: false
 | --- | --- |
 | Ul'dah | Desert city-state. Zekito's first landing point. He initially mistook it for a mispronunciation of 'Uladh.' |
 | [[Lunar Rose Academy]] | The academy Zekito enrolled in. Where he, Nimvaei, and Liraz all meet under various pretexts. |
-| [[Fury's Gaze]] | Auria Van Varus's secret research facility. Western Coerthas Highlands. |
+| [[Auria's Lab]] | Auria Van Varus's secret research facility. Western Coerthas Highlands. Operated under the front company [[Fury's Gaze]]. |
 | Ishgard | Ishgardian city-state in the Coerthas highlands. Zekito has an apartment here. |
 | Camp Dragonhead | Location where Nim and Zek meet Orraux Clauvier (Mores Gwydion) at the start of [[Runes of Chimera]]. |
 | Crystal Tower | Zekito's planned means of returning to Erinn — breach the Tower, use it as an aetherial battery to amplify his bracelet's attunement. |

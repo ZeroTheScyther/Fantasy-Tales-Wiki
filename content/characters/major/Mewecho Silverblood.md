@@ -61,7 +61,9 @@ stub: true
 
 **Mewecho Silverblood** is [[Zekito Silverblood|Zekito's]] twin sister and the other surviving child of [[Isanshiro]] and their Fomorian mother. Where Zekito was sent to [[Tir Chonaill]] as a farm boy, she was sent alone to the cold northern [[Vales]] — a far harsher fate. She carries the same [[Fomorian Blood|Fomorian blood]] as her brother. Her bracelet is the twin of his, the two attuned to each other so they can never truly lose one another.
 
-She has silver-white hair — the same as her brother — and fights with a greatsword. Her signature color is blue to Zekito's red.
+## Appearance
+
+Mewecho is smaller than [[Zekito Silverblood|Zekito]], with the same silver-white hair shared by all children of [[Isanshiro]]. She fights with a greatsword. Her signature color is blue to her brother's red.
 
 The twins met entirely by chance in [[Erinn]] — she was serving as an officer of [[Nixia]] when [[Zekito Silverblood|Zekito]] arrived to negotiate on [[Audacia]]'s behalf. They interacted through the full guild conflict without knowing they were siblings. The truth came during a joint mission through [[Iria]]: a dragon descended, [[Mewecho]] lost control of her Fomorian blood in a berserk rage and felled the beast — and [[Zekito Silverblood|Zekito]] recognized her bracelet.
 

@@ -62,7 +62,11 @@ stub: false
 
 **Mores Gwydion** is the hidden villain of [[Runes of Chimera]]. A mage from Werlyt who has body-hopped through history for over a century using a forbidden technique called [[Oversoul]], keeping himself alive long enough to resurrect his daughter [[Mari]]. He is not truly evil — he is a devastated father who refused to accept his daughter's death and let that refusal consume a century. His love without limits became something that hurt everyone it touched.
 
-He presents himself to [[Zekito Silverblood|Zekito]] and [[Nimvaei / Liraz Laskaris|Nimvaei]] as **Orraux Clauvier**, an arcanist-medic at Camp Dragonhead. Orraux's body is merely his current vessel.
+## Appearance
+
+Mores' true appearance is unknown — he has occupied different host bodies for over a century. Orraux's body is merely his current vessel.
+
+As **Orraux Clauvier**, he presents as a tall, slender older man with short white hair and a neatly trimmed white beard. He wears square-framed glasses and carries himself with composed, unhurried authority. His coat is long and white with dark lapels and brass detailing at the collar — the dress of a camp medic who takes the work seriously. Nothing about his bearing suggests someone who has been doing this for a hundred years.
 
 ## History
 

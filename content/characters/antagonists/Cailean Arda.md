@@ -59,6 +59,10 @@ stub: true
 
 **Cailean Arda** is an [[Umbra]] Specter — the highest operative tier. He was placed inside [[Fury's Gaze]] deliberately as an embedded observer, tasked with monitoring [[Auria Van Varus|Auria's]] progress and protecting Umbra's investment from the inside. He presented as her apparent second-in-command. She never knew he was watching.
 
+## Appearance
+
+[TODO]
+
 A schemer through and through — there is a purpose behind every action he takes. He also performed experiments on other members of the Six and treats it as good fun. After [[Auria Van Varus|Auria's]] death, Umbra assigned him to retrieve the Assets. The directed arrow from Umbra to Cailean on the connections chart indicates he reports directly above and around Auria's chain of command.
 
 ## Plots

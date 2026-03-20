@@ -38,7 +38,7 @@ stub: true
 >
 > | | |
 > |---|---|
-> | **Current** | The Rose and Her Thorns |
+> | **Current** | [[Lunar Rose Adventuring Academy]] |
 >
 > **Occupation**
 >
@@ -55,6 +55,10 @@ stub: true
 
 
 **Ordette Du'Flaya** is the youngest and least experienced member of the Rose and Her Thorns in terms of combat. Her merchant upbringing gave her practical skills; her guardian A'gil's overprotectiveness left her sheltered. She is still learning conjury. She is also still standing, which says something.
+
+## Appearance
+
+[TODO]
 
 ## Personality
 

@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "characters/Zekito Silverblood.md",
+                "file": "characters/Oswin Thatcher.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Zekito Silverblood"
+              "title": "Oswin Thatcher"
             }
           }
         ]
@@ -35,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timeline.md",
-                "mode": "source",
+                "file": "characters/Nimvaei - Liraz Laskaris.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Timeline"
+              "title": "Nimvaei - Liraz Laskaris"
             }
           }
         ]
@@ -205,8 +205,28 @@
       "bases:Create new base": false
     }
   },
-  "active": "bcbfb3b109f2ee05",
+  "active": "aae9d24bc85e528a",
   "lastOpenFiles": [
+    "characters/Ordette Du'Flaya.md",
+    "characters/Nimvaei - Liraz Laskaris.md",
+    "characters/Mores Gwydion.md",
+    "characters/Mewecho Silverblood.md",
+    "characters/Merlin.md",
+    "characters/Maya Takagi.md",
+    "characters/Luvsan Tumet.md",
+    "characters/Lorelai Lesrekta.md",
+    "characters/Lexus Ovicula.md",
+    "characters/Kiku Kha.md",
+    "characters/Joyce Carver.md",
+    "characters/Isanshiro Silverblood.md",
+    "characters/Amelia Graves.md",
+    "characters/Zekito Silverblood.md",
+    "characters/Hwaryun Tzuyu.md",
+    "characters/Hapus Anrhefn.md",
+    "characters/Cailean Arda.md",
+    "characters/Auria Van Varus.md",
+    "artifacts/Woeborn.md",
+    "Timeline.md",
     "Timeline.md.tmp.7014.1774009395963",
     "Timeline.md.tmp.7014.1774009386405",
     "Timeline.md.tmp.7014.1774009379459",
@@ -219,25 +239,6 @@
     "factions/The Aces.md",
     "factions/Nixia.md",
     "factions/Lambs of Dalamud.md",
-    "factions/Audacia.md",
-    "characters/Cailean Arda.md",
-    "characters/Zekito Silverblood.md",
-    "characters/Hapus Anrhefn.md",
-    "characters/Hwaryun Tzuyu.md",
-    "characters/Isanshiro Silverblood.md",
-    "characters/Joyce Carver.md",
-    "artifacts/Woeborn.md",
-    "characters/Amelia Graves.md",
-    "Home.md",
-    "characters/Luvsan Tumet.md",
-    "characters/Thalric Ironshore.md",
-    "characters/Nimvaei - Liraz Laskaris.md",
-    "characters/Lorelai Lesrekta.md",
-    "characters/Kiku Kha.md",
-    "characters/Mores Gwydion.md",
-    "characters/Mewecho Silverblood.md",
-    "characters/Auria Van Varus.md",
-    "lore/Aether.md",
-    "lore/Fomorian Blood.md"
+    "factions/Audacia.md"
   ]
 }

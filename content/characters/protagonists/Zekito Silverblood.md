@@ -67,21 +67,11 @@ stub: true
 
 **Zekito Silverblood** — also known as **Zek** — is the central protagonist of Fantasy Tales. Half-[[Fomorian Blood|Fomorian]], half-Miqo'te, he is the son of [[Isanshiro]] (the Silver King) and twin brother of [[Mewecho]]. Born into a kingdom that burned before he could remember it, he has spent two centuries wandering [[Erinn]] and now [[Hydaelyn]], defying the nature of what he is.
 
-He is tall, muscular, silver-haired, and red-eyed — an immediately striking presence with cat ears that catch far more than he admits to, and a tail he usually keeps wrapped under his shirt. Despite his appearance, he is outgoing, brash, and audacious. He is also quietly terrified of losing anyone he lets close, and has been running from something for two hundred years.
-
 ## Appearance
 
-| Attribute        | Detail              |
-| ---------------- | ------------------- |
-| Hair             | Silver-white, Messy |
-| Eyes             | Red                 |
-| Height           | 186 cm (6'1")       |
-| Weight           | 75 kg (165 lbs)     |
-| Build            | Tall, muscular      |
-| Ears             | Cat ears            |
-| Tail             | White and fluffy    |
-| Scars            | Numerous            |
-| Signature Colors | Red and Black       |
+Zekito is a tall, powerfully built young man with short, messy silver-white hair and intense red eyes. He has cat ears that catch far more than he lets on, and a white fluffy tail he usually keeps wrapped under his shirt. Numerous scars mark his body, accumulated across two centuries of fighting. His signature colors are red and black.
+
+His hair arrived in Eorzea dark — it turned silver-white within three years of his arrival. During the Umbra arc, [[Nimvaei / Liraz Laskaris|Nimvaei]] cut and dyed it black as a disguise; the silver-white stood out too much.
 
 ### Outfit by Arc
 

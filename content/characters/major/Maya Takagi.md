@@ -38,7 +38,7 @@ stub: true
 >
 > | | |
 > |---|---|
-> | **Current** | The Rose and Her Thorns |
+> | **Current** | [[Lunar Rose Adventuring Academy]] |
 >
 > **Occupation**
 >
@@ -56,6 +56,10 @@ stub: true
 
 
 **Maya Takagi** brings real-world battlefield experience to the Rose and Her Thorns — she served in Ilsabard on active duty. Logic, charm, and medical knowledge round out a formidable and well-rounded operative.
+
+## Appearance
+
+[TODO]
 
 ## Personality
 

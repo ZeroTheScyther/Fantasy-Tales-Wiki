@@ -1,5 +1,5 @@
 ---
-title: "Fury's Gaze"
+title: "Auria's Lab"
 subtitle: "Auria's facility. Funded by Umbra."
 category: location
 tags:
@@ -8,11 +8,12 @@ tags:
   - coerthas
   - auria
 aliases:
-  - "Fury's Gaze"
+  - "Auria's Lab"
+  - "Fury's Gaze facility"
 stub: false
 ---
 
-**Fury's Gaze** is [[Auria Van Varus|Auria Van Varus's]] secret research facility, located in the Western Coerthas Highlands. Funded by [[Umbra]]. Its staff — mercenaries, exiles, and experimental subjects — follow [[Auria Van Varus|Auria]] out of loyalty, fear, or shared ideology.
+**Auria's Lab** is [[Auria Van Varus|Auria Van Varus's]] secret research facility, located in the Western Coerthas Highlands. Funded by [[Umbra]] and operated under the front company [[Fury's Gaze]], it served as the primary site for Auria's human experimentation programs. Its staff — mercenaries, exiles, and experimental subjects — followed [[Auria Van Varus|Auria]] out of loyalty, fear, or shared ideology.
 
 ## Facility Layout
 

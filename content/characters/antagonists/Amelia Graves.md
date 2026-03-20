@@ -31,21 +31,21 @@ stub: false
 >
 > | | |
 > |---|---|
-> | **Status** | Alive — total sensory loss |
+> | **Status** | Alive |
 > | **Relatives** | [TODO] |
 >
 > **Affiliation**
 >
 > | | |
 > |---|---|
-> | **Current** | [[Umbra]] (Shade + Asset) |
-> | **Previous** | [[Fury's Gaze]] experimental subject |
+> | **Current** | [[Umbra]] |
+> | **Previous** | [[Fury's Gaze]] |
 >
 > **Occupation**
 >
 > | | |
 > |---|---|
-> | **Current** | Umbra operative (Shade + Asset) |
+> | **Current** | Umbra operative |
 >
 > **Base of Operations**
 >
@@ -55,7 +55,11 @@ stub: false
 >
 
 
-**Amelia Graves** is an [[Umbra]] operative — Shade and Asset — and one of [[Auria Van Varus|Auria's]] experimental subjects. Six doses of Compound Omega progressively degraded her sensory function. Pain receptors first, then all sensation. Motor function and cognition remain intact. She can move, speak, and fight. She cannot feel anything.
+**Amelia Graves** is a Hyur woman and [[Umbra]] operative — Shade and Asset — and one of [[Auria Van Varus|Auria's]] experimental subjects. Six doses of Compound Omega progressively degraded her sensory function until all sensation was gone. She can move, speak, and fight. She cannot feel anything.
+
+## Appearance
+
+[TODO]
 
 Except, it seems, for [[Auria Van Varus|Auria]]. Amelia loves her — genuinely, in whatever broken way is left to someone who can no longer feel warmth, cold, pain, or touch. With [[Auria Van Varus|Auria]] gone, that love is unmoored with nowhere to go. [[Umbra]] considers this a serious volatility risk. She is a grenade with the pin already pulled.
 

@@ -57,6 +57,10 @@ stub: true
 
 **Lexus Ovicula** is an [[Umbra]] Phantom — mid-tier operative. He manages cells, organizes mercenary groups, runs [[Umbra's]] brothel and trafficking operations, and oversees sabotage and surveillance. He delivered Garlean schematics to Vangarde that set up the Grimstone mining deal at [[Fury's Gaze|Burning Walls]].
 
+## Appearance
+
+[TODO]
+
 His combat style relies on traps, social manipulation, and rogue tactics — a creed-style approach that prioritizes preparation and control over direct confrontation.
 
 He had a rough life and did what he had to do to get on top. He is full of himself for having made it big and not ashamed of anything he's done. He defends the awful things he's done by saying the world is an awful place. This is not a facade — he actually believes it.
